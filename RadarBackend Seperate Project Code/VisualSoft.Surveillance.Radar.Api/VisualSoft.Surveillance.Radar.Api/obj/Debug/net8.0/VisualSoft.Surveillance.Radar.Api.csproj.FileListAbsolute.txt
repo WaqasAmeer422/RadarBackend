@@ -1,0 +1,294 @@
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.csproj.AssemblyReference.cache
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.AssemblyInfoInputs.cache
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.AssemblyInfo.cs
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.csproj.CoreCompileInputs.cache
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\appsettings.Development.json
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\appsettings.json
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.staticwebassets.endpoints.json
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.exe
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.deps.json
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.runtimeconfig.json
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.pdb
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\HealthChecks.NpgSql.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\HealthChecks.UI.Client.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\HealthChecks.UI.Core.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\HealthChecks.Uris.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\AutoMapper.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Dapper.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\dbup-core.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\dbup-postgresql.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\EasyNetQ.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\EasyNetQ.Logging.Serilog.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Http.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Npgsql.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\OneOf.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\RabbitMQ.Client.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.Sinks.File.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.Sinks.Map.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\System.Text.Json.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Data.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Domain.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Services.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Data.pdb
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Domain.pdb
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Services.pdb
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\scopedcss\bundle\VisualSoft.Surveillance.Radar.Api.styles.css
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\staticwebassets.build.json
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\staticwebassets.development.json
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\staticwebassets\msbuild.VisualSoft.Surveillance.Radar.Api.Microsoft.AspNetCore.StaticWebAssets.props
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\staticwebassets\msbuild.VisualSoft.Surveillance.Radar.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\staticwebassets\msbuild.build.VisualSoft.Surveillance.Radar.Api.props
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.VisualSoft.Surveillance.Radar.Api.props
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.VisualSoft.Surveillance.Radar.Api.props
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\staticwebassets.pack.json
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSo.076F8F2F.Up2Date
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\refint\VisualSoft.Surveillance.Radar.Api.dll
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.pdb
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.genruntimeconfig.cache
+D:\123\Ominia Backend\Omnia Backend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\ref\VisualSoft.Surveillance.Radar.Api.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\appsettings.Development.json
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\appsettings.json
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.staticwebassets.endpoints.json
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.exe
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.deps.json
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.runtimeconfig.json
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.pdb
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\HealthChecks.NpgSql.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\HealthChecks.UI.Client.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\HealthChecks.UI.Core.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\HealthChecks.Uris.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\AutoMapper.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Dapper.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\dbup-core.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\dbup-postgresql.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\EasyNetQ.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\EasyNetQ.Logging.Serilog.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Http.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Npgsql.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\OneOf.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\RabbitMQ.Client.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.Sinks.File.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.Sinks.Map.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\System.Text.Json.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Data.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Domain.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Services.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Data.pdb
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Domain.pdb
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Services.pdb
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.csproj.AssemblyReference.cache
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.AssemblyInfoInputs.cache
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.AssemblyInfo.cs
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.csproj.CoreCompileInputs.cache
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\scopedcss\bundle\VisualSoft.Surveillance.Radar.Api.styles.css
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\staticwebassets.build.json
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\staticwebassets.development.json
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\staticwebassets\msbuild.VisualSoft.Surveillance.Radar.Api.Microsoft.AspNetCore.StaticWebAssets.props
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\staticwebassets\msbuild.VisualSoft.Surveillance.Radar.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\staticwebassets\msbuild.build.VisualSoft.Surveillance.Radar.Api.props
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.VisualSoft.Surveillance.Radar.Api.props
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.VisualSoft.Surveillance.Radar.Api.props
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\staticwebassets.pack.json
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSo.076F8F2F.Up2Date
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\refint\VisualSoft.Surveillance.Radar.Api.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.pdb
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.genruntimeconfig.cache
+D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\ref\VisualSoft.Surveillance.Radar.Api.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\appsettings.Development.json
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\appsettings.json
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.staticwebassets.endpoints.json
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.exe
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.deps.json
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.runtimeconfig.json
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.pdb
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\HealthChecks.NpgSql.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\HealthChecks.UI.Client.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\HealthChecks.UI.Core.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\HealthChecks.Uris.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\AutoMapper.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Dapper.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\dbup-core.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\dbup-postgresql.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\EasyNetQ.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\EasyNetQ.Logging.Serilog.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Metadata.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Binder.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Http.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Npgsql.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\OneOf.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\RabbitMQ.Client.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.AspNetCore.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.Extensions.Hosting.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.Extensions.Logging.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.Formatting.Compact.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.Settings.Configuration.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.Sinks.Debug.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.Sinks.File.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Serilog.Sinks.Map.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\System.Text.Json.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Data.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Domain.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Services.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Data.pdb
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Domain.pdb
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\bin\Debug\net8.0\VisualSoft.Surveillance.Radar.Services.pdb
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.csproj.AssemblyReference.cache
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.AssemblyInfoInputs.cache
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.AssemblyInfo.cs
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.csproj.CoreCompileInputs.cache
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\scopedcss\bundle\VisualSoft.Surveillance.Radar.Api.styles.css
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\staticwebassets.build.json
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\staticwebassets.development.json
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSo.076F8F2F.Up2Date
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\refint\VisualSoft.Surveillance.Radar.Api.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.pdb
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\VisualSoft.Surveillance.Radar.Api.genruntimeconfig.cache
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\ref\VisualSoft.Surveillance.Radar.Api.dll
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\obj\Debug\net8.0\swae.build.ex.cache

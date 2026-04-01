@@ -1,0 +1,16 @@
+2026-02-10 14:45:29.998 +05:00 [INF] Beginning transaction
+2026-02-10 14:45:30.087 +05:00 [INF] Beginning database upgrade
+2026-02-10 14:45:30.091 +05:00 [INF] Checking whether journal table exists..
+2026-02-10 14:45:30.116 +05:00 [INF] Fetching list of already executed scripts.
+2026-02-10 14:45:30.136 +05:00 [INF] No new scripts need to be executed - completing.
+2026-02-10 14:45:30.247 +05:00 [INF] Beginning transaction
+2026-02-10 14:45:30.247 +05:00 [INF] Beginning database upgrade
+2026-02-10 14:45:30.248 +05:00 [INF] Checking whether journal table exists..
+2026-02-10 14:45:30.269 +05:00 [INF] Fetching list of already executed scripts.
+2026-02-10 14:45:30.277 +05:00 [INF] No new scripts need to be executed - completing.
+2026-02-10 14:45:32.177 +05:00 [INF] Starting Parser Request Consumer service {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-02-10 14:45:33.141 +05:00 [INF] Now listening on: https://localhost:7229
+2026-02-10 14:45:33.143 +05:00 [INF] Now listening on: http://localhost:5211
+2026-02-10 14:45:33.507 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-10 14:45:33.508 +05:00 [INF] Hosting environment: Development
+2026-02-10 14:45:33.508 +05:00 [INF] Content root path: D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api

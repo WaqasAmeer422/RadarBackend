@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="DBScripts\V001_20250721105103__performance.sql" />
+		<None Remove="DBScripts\V001_202508060910103__AddTransactionSource.sql" />
+		<None Remove="DBScripts\V001_202508060931103__AddLookUpConstraints.sql" />
+		<None Remove="DBScripts\V001_20250807162373__AiLicencePlateColumn.sql" />
+		<None Remove="DBScripts\V001_20256060028103__BaselineMigration.sql" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Dapper" Version="2.1.66" />
+		<PackageReference Include="dbup-postgresql" Version="5.0.40" />
+		<PackageReference Include="Npgsql" Version="9.0.3" />
+		<PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\VisualSoft.Surveillance.Radar.Domain\VisualSoft.Surveillance.Radar.Domain.csproj" />
+	</ItemGroup>
+
+</Project>

@@ -1,0 +1,306 @@
+2026-01-27 09:21:40.408 +05:00 [INF] Start processing HTTP request POST https://localhost:7284/api/login
+2026-01-27 09:21:40.415 +05:00 [INF] Sending HTTP request POST https://localhost:7284/api/login
+2026-01-27 09:21:41.797 +05:00 [INF] Received HTTP response headers after 1381.4768ms - 200
+2026-01-27 09:21:41.802 +05:00 [INF] End processing HTTP request after 1390.0482ms - 200
+2026-01-27 09:21:41.804 +05:00 [INF] Start processing HTTP request GET https://localhost:7284/api/organisations
+2026-01-27 09:21:41.805 +05:00 [INF] Sending HTTP request GET https://localhost:7284/api/organisations
+2026-01-27 09:21:41.910 +05:00 [INF] Received HTTP response headers after 105.2643ms - 200
+2026-01-27 09:21:41.911 +05:00 [INF] End processing HTTP request after 106.6786ms - 200
+2026-01-27 09:27:27.418 +05:00 [INF] Consuming message from Rabbit MQ. {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-27 09:27:47.679 +05:00 [INF] Starting Creating Transcation Process {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-27 09:28:07.597 +05:00 [ERR] Error occured!.
+Npgsql.PostgresException (0x80004005): 42P01: relation "device_setting" does not exist
+
+POSITION: 140
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at VisualSoft.Surveillance.Radar.Data.Repositories.DeviceSettingRepository.GetDeviceSettingsByDeviceId(Guid deviceid) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Data\Repositories\DeviceSettingRepository.cs:line 40
+   at VisualSoft.Surveillance.Radar.Services.Handlers.RADARTransactionService.buildTransactionLocation(Guid deviceId) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Handlers\RADARTransactionService.cs:line 173
+   at VisualSoft.Surveillance.Radar.Services.Handlers.RADARTransactionService.PrepareDataForDataBase(DeviceDetailDto device, RadarEventModel radarEventModel) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Handlers\RADARTransactionService.cs:line 102
+   at VisualSoft.Surveillance.Radar.Services.Handlers.RADARTransactionService.ProcessData(Object model) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Handlers\RADARTransactionService.cs:line 58
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "device_setting" does not exist
+    Position: 140
+    File: parse_relation.c
+    Line: 1469
+    Routine: parserOpenTable
+2026-01-27 09:28:15.234 +05:00 [ERR] Error Consuming message from Rabbit MQ. {"QueueName":"visualsoft.surveillance.radar.events","Errors":{"Errors":[{"Field":"Exception","Message":"   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)\r\n   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)\r\n   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)\r\n   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434\r\n   at VisualSoft.Surveillance.Radar.Data.Repositories.DeviceSettingRepository.GetDeviceSettingsByDeviceId(Guid deviceid) in D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Repositories\\DeviceSettingRepository.cs:line 40\r\n   at VisualSoft.Surveillance.Radar.Services.Handlers.RADARTransactionService.buildTransactionLocation(Guid deviceId) in D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\Handlers\\RADARTransactionService.cs:line 173\r\n   at VisualSoft.Surveillance.Radar.Services.Handlers.RADARTransactionService.PrepareDataForDataBase(DeviceDetailDto device, RadarEventModel radarEventModel) in D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\Handlers\\RADARTransactionService.cs:line 102\r\n   at VisualSoft.Surveillance.Radar.Services.Handlers.RADARTransactionService.ProcessData(Object model) in D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\Handlers\\RADARTransactionService.cs:line 58","$type":"ValidationError"}],"Failed":true,"$type":"ValidationResult"}}
+2026-01-27 09:31:43.854 +05:00 [INF] Consuming message from Rabbit MQ. {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-27 09:31:57.813 +05:00 [INF] Starting Creating Transcation Process {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-27 09:32:17.096 +05:00 [ERR] Error occured!.
+Npgsql.PostgresException (0x80004005): 42P01: relation "device_setting" does not exist
+
+POSITION: 140
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at VisualSoft.Surveillance.Radar.Data.Repositories.DeviceSettingRepository.GetDeviceSettingsByDeviceId(Guid deviceid) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Data\Repositories\DeviceSettingRepository.cs:line 40
+   at VisualSoft.Surveillance.Radar.Services.Handlers.RADARTransactionService.buildTransactionLocation(Guid deviceId) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Handlers\RADARTransactionService.cs:line 173
+   at VisualSoft.Surveillance.Radar.Services.Handlers.RADARTransactionService.PrepareDataForDataBase(DeviceDetailDto device, RadarEventModel radarEventModel) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Handlers\RADARTransactionService.cs:line 102
+   at VisualSoft.Surveillance.Radar.Services.Handlers.RADARTransactionService.ProcessData(Object model) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Handlers\RADARTransactionService.cs:line 58
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "device_setting" does not exist
+    Position: 140
+    File: parse_relation.c
+    Line: 1469
+    Routine: parserOpenTable
+2026-01-27 09:32:20.094 +05:00 [ERR] Error Consuming message from Rabbit MQ. {"QueueName":"visualsoft.surveillance.radar.events","Errors":{"Errors":[{"Field":"Exception","Message":"   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)\r\n   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)\r\n   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)\r\n   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434\r\n   at VisualSoft.Surveillance.Radar.Data.Repositories.DeviceSettingRepository.GetDeviceSettingsByDeviceId(Guid deviceid) in D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Repositories\\DeviceSettingRepository.cs:line 40\r\n   at VisualSoft.Surveillance.Radar.Services.Handlers.RADARTransactionService.buildTransactionLocation(Guid deviceId) in D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\Handlers\\RADARTransactionService.cs:line 173\r\n   at VisualSoft.Surveillance.Radar.Services.Handlers.RADARTransactionService.PrepareDataForDataBase(DeviceDetailDto device, RadarEventModel radarEventModel) in D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\Handlers\\RADARTransactionService.cs:line 102\r\n   at VisualSoft.Surveillance.Radar.Services.Handlers.RADARTransactionService.ProcessData(Object model) in D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\Handlers\\RADARTransactionService.cs:line 58","$type":"ValidationError"}],"Failed":true,"$type":"ValidationResult"}}
+2026-01-27 09:51:27.694 +05:00 [INF] Beginning transaction
+2026-01-27 09:51:27.790 +05:00 [INF] Beginning database upgrade
+2026-01-27 09:51:27.797 +05:00 [INF] Checking whether journal table exists..
+2026-01-27 09:51:27.835 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-27 09:51:27.863 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-27 09:51:28.055 +05:00 [INF] Beginning transaction
+2026-01-27 09:51:28.055 +05:00 [INF] Beginning database upgrade
+2026-01-27 09:51:28.056 +05:00 [INF] Checking whether journal table exists..
+2026-01-27 09:51:28.086 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-27 09:51:28.094 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-27 09:51:30.845 +05:00 [INF] Starting Parser Request Consumer service {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-27 09:52:46.299 +05:00 [INF] Consuming message from Rabbit MQ. {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-27 09:52:49.197 +05:00 [INF] Starting Creating Transcation Process {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-27 09:52:49.200 +05:00 [INF] Now listening on: https://localhost:7229
+2026-01-27 09:52:49.206 +05:00 [INF] Now listening on: http://localhost:5211
+2026-01-27 09:52:49.818 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-27 10:06:10.728 +05:00 [INF] Hosting environment: Development
+2026-01-27 10:06:10.736 +05:00 [INF] Content root path: D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api
+2026-01-27 10:06:11.231 +05:00 [ERR] Error occured!.
+Npgsql.PostgresException (0x80004005): 42P01: relation "device_setting" does not exist
+
+POSITION: 140
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at VisualSoft.Surveillance.Radar.Data.Repositories.DeviceSettingRepository.GetDeviceSettingsByDeviceId(Guid deviceid) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Data\Repositories\DeviceSettingRepository.cs:line 40
+   at VisualSoft.Surveillance.Radar.Services.Handlers.RADARTransactionService.buildTransactionLocation(Guid deviceId) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Handlers\RADARTransactionService.cs:line 173
+   at VisualSoft.Surveillance.Radar.Services.Handlers.RADARTransactionService.PrepareDataForDataBase(DeviceDetailDto device, RadarEventModel radarEventModel) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Handlers\RADARTransactionService.cs:line 102
+   at VisualSoft.Surveillance.Radar.Services.Handlers.RADARTransactionService.ProcessData(Object model) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Handlers\RADARTransactionService.cs:line 58
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "device_setting" does not exist
+    Position: 140
+    File: parse_relation.c
+    Line: 1469
+    Routine: parserOpenTable
+2026-01-27 10:06:11.303 +05:00 [ERR] Error Consuming message from Rabbit MQ. {"QueueName":"visualsoft.surveillance.radar.events","Errors":{"Errors":[{"Field":"Exception","Message":"   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)\r\n   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)\r\n   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)\r\n   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434\r\n   at VisualSoft.Surveillance.Radar.Data.Repositories.DeviceSettingRepository.GetDeviceSettingsByDeviceId(Guid deviceid) in D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Repositories\\DeviceSettingRepository.cs:line 40\r\n   at VisualSoft.Surveillance.Radar.Services.Handlers.RADARTransactionService.buildTransactionLocation(Guid deviceId) in D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\Handlers\\RADARTransactionService.cs:line 173\r\n   at VisualSoft.Surveillance.Radar.Services.Handlers.RADARTransactionService.PrepareDataForDataBase(DeviceDetailDto device, RadarEventModel radarEventModel) in D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\Handlers\\RADARTransactionService.cs:line 102\r\n   at VisualSoft.Surveillance.Radar.Services.Handlers.RADARTransactionService.ProcessData(Object model) in D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\Handlers\\RADARTransactionService.cs:line 58","$type":"ValidationError"}],"Failed":true,"$type":"ValidationResult"}}
+2026-01-27 10:06:13.991 +05:00 [INF] Consuming message from Rabbit MQ. {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-27 10:06:13.999 +05:00 [INF] Starting Creating Transcation Process {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-27 10:06:17.854 +05:00 [ERR] Error occured!.
+Npgsql.PostgresException (0x80004005): 42P01: relation "device_setting" does not exist
+
+POSITION: 140
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at VisualSoft.Surveillance.Radar.Data.Repositories.DeviceSettingRepository.GetDeviceSettingsByDeviceId(Guid deviceid) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Data\Repositories\DeviceSettingRepository.cs:line 40
+   at VisualSoft.Surveillance.Radar.Services.Handlers.RADARTransactionService.buildTransactionLocation(Guid deviceId) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Handlers\RADARTransactionService.cs:line 173
+   at VisualSoft.Surveillance.Radar.Services.Handlers.RADARTransactionService.PrepareDataForDataBase(DeviceDetailDto device, RadarEventModel radarEventModel) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Handlers\RADARTransactionService.cs:line 102
+   at VisualSoft.Surveillance.Radar.Services.Handlers.RADARTransactionService.ProcessData(Object model) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Handlers\RADARTransactionService.cs:line 58
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "device_setting" does not exist
+    Position: 140
+    File: parse_relation.c
+    Line: 1469
+    Routine: parserOpenTable
+2026-01-27 10:06:17.861 +05:00 [ERR] Error Consuming message from Rabbit MQ. {"QueueName":"visualsoft.surveillance.radar.events","Errors":{"Errors":[{"Field":"Exception","Message":"   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)\r\n   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)\r\n   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)\r\n   at Npgsql.NpgsqlCommand.ExecuteDbDataReaderAsync(CommandBehavior behavior, CancellationToken cancellationToken)\r\n   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434\r\n   at VisualSoft.Surveillance.Radar.Data.Repositories.DeviceSettingRepository.GetDeviceSettingsByDeviceId(Guid deviceid) in D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Repositories\\DeviceSettingRepository.cs:line 40\r\n   at VisualSoft.Surveillance.Radar.Services.Handlers.RADARTransactionService.buildTransactionLocation(Guid deviceId) in D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\Handlers\\RADARTransactionService.cs:line 173\r\n   at VisualSoft.Surveillance.Radar.Services.Handlers.RADARTransactionService.PrepareDataForDataBase(DeviceDetailDto device, RadarEventModel radarEventModel) in D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\Handlers\\RADARTransactionService.cs:line 102\r\n   at VisualSoft.Surveillance.Radar.Services.Handlers.RADARTransactionService.ProcessData(Object model) in D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\Handlers\\RADARTransactionService.cs:line 58","$type":"ValidationError"}],"Failed":true,"$type":"ValidationResult"}}
+2026-01-27 11:01:59.848 +05:00 [INF] Beginning transaction
+2026-01-27 11:01:59.981 +05:00 [INF] Beginning database upgrade
+2026-01-27 11:01:59.984 +05:00 [INF] Checking whether journal table exists..
+2026-01-27 11:02:00.026 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-27 11:02:00.057 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-27 11:02:00.249 +05:00 [INF] Beginning transaction
+2026-01-27 11:02:00.249 +05:00 [INF] Beginning database upgrade
+2026-01-27 11:02:00.249 +05:00 [INF] Checking whether journal table exists..
+2026-01-27 11:02:00.295 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-27 11:02:00.305 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-27 11:02:01.731 +05:00 [INF] Starting Parser Request Consumer service {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-27 11:02:03.294 +05:00 [INF] Now listening on: https://localhost:7229
+2026-01-27 11:02:03.300 +05:00 [INF] Now listening on: http://localhost:5211
+2026-01-27 11:02:03.811 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-27 11:02:03.812 +05:00 [INF] Hosting environment: Development
+2026-01-27 11:02:03.812 +05:00 [INF] Content root path: D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api
+2026-01-27 11:06:57.486 +05:00 [INF] Start processing HTTP request POST https://localhost:7284/api/login
+2026-01-27 11:06:57.504 +05:00 [INF] Sending HTTP request POST https://localhost:7284/api/login
+2026-01-27 11:06:58.785 +05:00 [INF] Received HTTP response headers after 1270.12ms - 200
+2026-01-27 11:06:58.789 +05:00 [INF] End processing HTTP request after 1319.9336ms - 200
+2026-01-27 11:06:58.846 +05:00 [INF] Start processing HTTP request GET https://localhost:7284/api/organisations
+2026-01-27 11:06:58.846 +05:00 [INF] Sending HTTP request GET https://localhost:7284/api/organisations
+2026-01-27 11:06:58.907 +05:00 [INF] Received HTTP response headers after 60.3243ms - 200
+2026-01-27 11:06:58.909 +05:00 [INF] End processing HTTP request after 62.7163ms - 200
+2026-01-27 11:21:03.571 +05:00 [ERR] Error occured!.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+PaginationParametersRequest -> PaginationParameters
+VisualSoft.Surveillance.Radar.Api.Models.PaginationParametersRequest -> VisualSoft.Surveillance.Radar.Domain.Models.PaginationParameters
+   at lambda_method83(Closure, Object, PaginationParameters, ResolutionContext)
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get(PaginationParametersRequest request) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Controllers\TransactionController.cs:line 48
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Middlewares\ExceptionMiddleware.cs:line 25
+2026-01-27 11:40:05.096 +05:00 [INF] Beginning transaction
+2026-01-27 11:40:05.285 +05:00 [INF] Beginning database upgrade
+2026-01-27 11:40:05.292 +05:00 [INF] Checking whether journal table exists..
+2026-01-27 11:40:05.330 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-27 11:40:05.359 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-27 11:40:05.596 +05:00 [INF] Beginning transaction
+2026-01-27 11:40:05.596 +05:00 [INF] Beginning database upgrade
+2026-01-27 11:40:05.597 +05:00 [INF] Checking whether journal table exists..
+2026-01-27 11:40:05.630 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-27 11:40:05.639 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-27 11:40:08.059 +05:00 [INF] Starting Parser Request Consumer service {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-27 11:40:09.273 +05:00 [INF] Now listening on: https://localhost:7229
+2026-01-27 11:40:09.278 +05:00 [INF] Now listening on: http://localhost:5211
+2026-01-27 11:40:09.761 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-27 11:40:09.762 +05:00 [INF] Hosting environment: Development
+2026-01-27 11:40:09.764 +05:00 [INF] Content root path: D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api
+2026-01-27 11:40:49.495 +05:00 [ERR] Error occured!.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+PaginationParametersRequest -> PaginationParameters
+VisualSoft.Surveillance.Radar.Api.Models.PaginationParametersRequest -> VisualSoft.Surveillance.Radar.Domain.Models.PaginationParameters
+   at lambda_method74(Closure, Object, PaginationParameters, ResolutionContext)
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get(PaginationParametersRequest request) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Controllers\TransactionController.cs:line 48
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Middlewares\ExceptionMiddleware.cs:line 25
+2026-01-27 11:46:08.761 +05:00 [ERR] Error occured!.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+PaginationParametersRequest -> PaginationParameters
+VisualSoft.Surveillance.Radar.Api.Models.PaginationParametersRequest -> VisualSoft.Surveillance.Radar.Domain.Models.PaginationParameters
+   at lambda_method74(Closure, Object, PaginationParameters, ResolutionContext)
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get(PaginationParametersRequest request)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext)
+2026-01-27 11:46:25.279 +05:00 [ERR] Error occured!.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+PaginationParametersRequest -> PaginationParameters
+VisualSoft.Surveillance.Radar.Api.Models.PaginationParametersRequest -> VisualSoft.Surveillance.Radar.Domain.Models.PaginationParameters
+   at lambda_method74(Closure, Object, PaginationParameters, ResolutionContext)
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get(PaginationParametersRequest request)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext)
+2026-01-27 11:50:33.161 +05:00 [INF] Beginning transaction
+2026-01-27 11:50:33.349 +05:00 [INF] Beginning database upgrade
+2026-01-27 11:50:33.352 +05:00 [INF] Checking whether journal table exists..
+2026-01-27 11:50:33.394 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-27 11:50:33.430 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-27 11:50:33.599 +05:00 [INF] Beginning transaction
+2026-01-27 11:50:33.599 +05:00 [INF] Beginning database upgrade
+2026-01-27 11:50:33.599 +05:00 [INF] Checking whether journal table exists..
+2026-01-27 11:50:33.631 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-27 11:50:33.638 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-27 11:50:35.725 +05:00 [INF] Starting Parser Request Consumer service {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-27 11:50:37.149 +05:00 [INF] Now listening on: https://localhost:7229
+2026-01-27 11:50:37.153 +05:00 [INF] Now listening on: http://localhost:5211
+2026-01-27 11:50:37.457 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-27 11:50:37.459 +05:00 [INF] Hosting environment: Development
+2026-01-27 11:50:37.459 +05:00 [INF] Content root path: D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api
+2026-01-27 11:51:18.203 +05:00 [INF] Start processing HTTP request POST https://localhost:7284/api/login
+2026-01-27 11:51:18.219 +05:00 [INF] Sending HTTP request POST https://localhost:7284/api/login
+2026-01-27 11:51:19.583 +05:00 [INF] Received HTTP response headers after 1357.519ms - 200
+2026-01-27 11:51:19.587 +05:00 [INF] End processing HTTP request after 1396.7634ms - 200
+2026-01-27 11:51:20.445 +05:00 [INF] Start processing HTTP request GET https://localhost:7284/api/organisations
+2026-01-27 11:51:20.446 +05:00 [INF] Sending HTTP request GET https://localhost:7284/api/organisations
+2026-01-27 11:51:20.540 +05:00 [INF] Received HTTP response headers after 94.111ms - 200
+2026-01-27 11:51:20.540 +05:00 [INF] End processing HTTP request after 95.0503ms - 200
+2026-01-27 12:01:19.021 +05:00 [ERR] JWT Authentication failed: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '1/26/2026 4:37:44 AM', Current time (UTC): '1/27/2026 7:01:18 AM'.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '1/26/2026 4:37:44 AM', Current time (UTC): '1/27/2026 7:01:18 AM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2026-01-27 13:13:39.921 +05:00 [INF] Beginning transaction
+2026-01-27 13:13:40.112 +05:00 [INF] Beginning database upgrade
+2026-01-27 13:13:40.120 +05:00 [INF] Checking whether journal table exists..
+2026-01-27 13:13:40.172 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-27 13:13:40.196 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-27 13:13:40.433 +05:00 [INF] Beginning transaction
+2026-01-27 13:13:40.433 +05:00 [INF] Beginning database upgrade
+2026-01-27 13:13:40.434 +05:00 [INF] Checking whether journal table exists..
+2026-01-27 13:13:40.476 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-27 13:13:40.488 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-27 13:13:41.892 +05:00 [INF] Starting Parser Request Consumer service {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-27 13:13:43.194 +05:00 [INF] Now listening on: https://localhost:7229
+2026-01-27 13:13:43.198 +05:00 [INF] Now listening on: http://localhost:5211
+2026-01-27 13:13:43.638 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-27 13:13:43.640 +05:00 [INF] Hosting environment: Development
+2026-01-27 13:13:43.640 +05:00 [INF] Content root path: D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api

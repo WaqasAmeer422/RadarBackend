@@ -1,0 +1,27 @@
+2026-02-21 14:47:36.186 +05:00 [INF] Beginning transaction
+2026-02-21 14:47:36.280 +05:00 [INF] Beginning database upgrade
+2026-02-21 14:47:36.284 +05:00 [INF] Checking whether journal table exists..
+2026-02-21 14:47:36.353 +05:00 [INF] Journal table does not exist
+2026-02-21 14:47:36.361 +05:00 [INF] No new scripts need to be executed - completing.
+2026-02-21 14:47:36.487 +05:00 [INF] Beginning transaction
+2026-02-21 14:47:36.487 +05:00 [INF] Beginning database upgrade
+2026-02-21 14:47:36.488 +05:00 [INF] Checking whether journal table exists..
+2026-02-21 14:47:36.509 +05:00 [INF] Journal table does not exist
+2026-02-21 14:47:36.510 +05:00 [INF] No new scripts need to be executed - completing.
+2026-02-21 14:47:38.730 +05:00 [INF] Starting Parser Request Consumer service {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-02-21 14:50:57.525 +05:00 [INF] Beginning transaction
+2026-02-21 14:50:57.634 +05:00 [INF] Beginning database upgrade
+2026-02-21 14:50:57.639 +05:00 [INF] Checking whether journal table exists..
+2026-02-21 14:50:57.665 +05:00 [INF] Journal table does not exist
+2026-02-21 14:50:57.671 +05:00 [INF] No new scripts need to be executed - completing.
+2026-02-21 14:50:57.824 +05:00 [INF] Beginning transaction
+2026-02-21 14:50:57.824 +05:00 [INF] Beginning database upgrade
+2026-02-21 14:50:57.824 +05:00 [INF] Checking whether journal table exists..
+2026-02-21 14:50:57.853 +05:00 [INF] Journal table does not exist
+2026-02-21 14:50:57.855 +05:00 [INF] No new scripts need to be executed - completing.
+2026-02-21 14:50:58.908 +05:00 [INF] Starting Parser Request Consumer service {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-02-21 14:51:00.392 +05:00 [INF] Now listening on: https://localhost:7229
+2026-02-21 14:51:00.398 +05:00 [INF] Now listening on: http://localhost:5211
+2026-02-21 14:51:01.459 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-02-21 14:51:01.461 +05:00 [INF] Hosting environment: Development
+2026-02-21 14:51:01.461 +05:00 [INF] Content root path: D:\123\Ominia Backend\Omnia Backend\RadarBackend Seperate Project Code\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api

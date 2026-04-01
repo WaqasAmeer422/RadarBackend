@@ -1,0 +1,352 @@
+2026-01-25 01:56:46.911 +05:00 [INF] Beginning transaction
+2026-01-25 01:56:47.065 +05:00 [INF] Beginning database upgrade
+2026-01-25 01:56:47.074 +05:00 [INF] Checking whether journal table exists..
+2026-01-25 01:56:47.107 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-25 01:56:47.135 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-25 01:56:47.318 +05:00 [INF] Beginning transaction
+2026-01-25 01:56:47.318 +05:00 [INF] Beginning database upgrade
+2026-01-25 01:56:47.319 +05:00 [INF] Checking whether journal table exists..
+2026-01-25 01:56:47.350 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-25 01:56:47.357 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-25 01:56:50.027 +05:00 [INF] Starting Parser Request Consumer service {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-25 01:56:51.323 +05:00 [INF] Now listening on: https://localhost:7229
+2026-01-25 01:56:51.329 +05:00 [INF] Now listening on: http://localhost:5211
+2026-01-25 01:56:51.755 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-25 01:56:51.764 +05:00 [INF] Hosting environment: Development
+2026-01-25 01:56:51.764 +05:00 [INF] Content root path: D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api
+2026-01-25 01:59:48.331 +05:00 [ERR] Error occured!.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+PaginationParametersRequest -> PaginationParameters
+VisualSoft.Surveillance.Radar.Api.Models.PaginationParametersRequest -> VisualSoft.Surveillance.Radar.Domain.Models.PaginationParameters
+   at lambda_method74(Closure, Object, PaginationParameters, ResolutionContext)
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get(PaginationParametersRequest request) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Controllers\TransactionController.cs:line 105
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Middlewares\ExceptionMiddleware.cs:line 25
+2026-01-25 02:03:37.992 +05:00 [ERR] Error occured!.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+PaginationParametersRequest -> PaginationParameters
+VisualSoft.Surveillance.Radar.Api.Models.PaginationParametersRequest -> VisualSoft.Surveillance.Radar.Domain.Models.PaginationParameters
+   at lambda_method74(Closure, Object, PaginationParameters, ResolutionContext)
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get(PaginationParametersRequest request) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Controllers\TransactionController.cs:line 105
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Middlewares\ExceptionMiddleware.cs:line 25
+2026-01-25 02:08:29.634 +05:00 [ERR] Error occured!.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+PaginationParametersRequest -> PaginationParameters
+VisualSoft.Surveillance.Radar.Api.Models.PaginationParametersRequest -> VisualSoft.Surveillance.Radar.Domain.Models.PaginationParameters
+   at lambda_method74(Closure, Object, PaginationParameters, ResolutionContext)
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get(PaginationParametersRequest request) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Controllers\TransactionController.cs:line 105
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Middlewares\ExceptionMiddleware.cs:line 25
+2026-01-25 02:12:35.284 +05:00 [ERR] Error occured!.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+PaginationParametersRequest -> PaginationParameters
+VisualSoft.Surveillance.Radar.Api.Models.PaginationParametersRequest -> VisualSoft.Surveillance.Radar.Domain.Models.PaginationParameters
+   at lambda_method74(Closure, Object, PaginationParameters, ResolutionContext)
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get(PaginationParametersRequest request)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext)
+2026-01-25 03:25:26.653 +05:00 [ERR] Error occured!.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+PaginationParametersRequest -> PaginationParameters
+VisualSoft.Surveillance.Radar.Api.Models.PaginationParametersRequest -> VisualSoft.Surveillance.Radar.Domain.Models.PaginationParameters
+   at lambda_method74(Closure, Object, PaginationParameters, ResolutionContext)
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get(PaginationParametersRequest request)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext)
+2026-01-25 03:26:48.598 +05:00 [ERR] Error occured!.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+PaginationParametersRequest -> PaginationParameters
+VisualSoft.Surveillance.Radar.Api.Models.PaginationParametersRequest -> VisualSoft.Surveillance.Radar.Domain.Models.PaginationParameters
+   at lambda_method74(Closure, Object, PaginationParameters, ResolutionContext)
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get(PaginationParametersRequest request)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext)
+2026-01-25 03:29:29.748 +05:00 [INF] Beginning transaction
+2026-01-25 03:29:29.852 +05:00 [INF] Beginning database upgrade
+2026-01-25 03:29:29.856 +05:00 [INF] Checking whether journal table exists..
+2026-01-25 03:29:29.887 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-25 03:29:29.907 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-25 03:29:30.067 +05:00 [INF] Beginning transaction
+2026-01-25 03:29:30.068 +05:00 [INF] Beginning database upgrade
+2026-01-25 03:29:30.068 +05:00 [INF] Checking whether journal table exists..
+2026-01-25 03:29:30.096 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-25 03:29:30.102 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-25 03:29:31.406 +05:00 [INF] Starting Parser Request Consumer service {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-25 03:29:32.687 +05:00 [INF] Now listening on: https://localhost:7229
+2026-01-25 03:29:32.692 +05:00 [INF] Now listening on: http://localhost:5211
+2026-01-25 03:29:33.144 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-25 03:29:33.146 +05:00 [INF] Hosting environment: Development
+2026-01-25 03:29:33.146 +05:00 [INF] Content root path: D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api
+2026-01-25 03:41:11.557 +05:00 [ERR] Error occured!.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TransactionFilterRequest -> TransactionFilterRequestDto
+VisualSoft.Surveillance.Radar.Api.Models.TransactionFilterRequest -> VisualSoft.Surveillance.Radar.Domain.Models.TransactionFilterRequestDto
+   at lambda_method83(Closure, Object, TransactionFilterRequestDto, ResolutionContext)
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get(TransactionFilterRequest criteria) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Controllers\TransactionController.cs:line 143
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Middlewares\ExceptionMiddleware.cs:line 25
+2026-01-25 03:41:17.458 +05:00 [ERR] Error occured!.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TransactionFilterRequest -> TransactionFilterRequestDto
+VisualSoft.Surveillance.Radar.Api.Models.TransactionFilterRequest -> VisualSoft.Surveillance.Radar.Domain.Models.TransactionFilterRequestDto
+   at lambda_method83(Closure, Object, TransactionFilterRequestDto, ResolutionContext)
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get(TransactionFilterRequest criteria) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Controllers\TransactionController.cs:line 143
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Middlewares\ExceptionMiddleware.cs:line 25
+2026-01-25 03:43:26.219 +05:00 [ERR] Error occured!.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+NavigateTransactionFilterRequest -> NavigateTransactionFilterDto
+VisualSoft.Surveillance.Radar.Api.Models.NavigateTransactionFilterRequest -> VisualSoft.Surveillance.Radar.Domain.Models.NavigateTransactionFilterDto
+   at lambda_method93(Closure, Object, NavigateTransactionFilterDto, ResolutionContext)
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get(NavigateTransactionFilterRequest criteria) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Controllers\TransactionController.cs:line 156
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Middlewares\ExceptionMiddleware.cs:line 25
+2026-01-25 03:45:14.723 +05:00 [ERR] Error occured!.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+TransactionFilterRequest -> TransactionFilterRequestDto
+VisualSoft.Surveillance.Radar.Api.Models.TransactionFilterRequest -> VisualSoft.Surveillance.Radar.Domain.Models.TransactionFilterRequestDto
+   at lambda_method83(Closure, Object, TransactionFilterRequestDto, ResolutionContext)
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get(TransactionFilterRequest criteria, PaginationParametersRequest paginations) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Controllers\TransactionController.cs:line 169
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Middlewares\ExceptionMiddleware.cs:line 25
+2026-01-25 03:45:53.643 +05:00 [ERR] Error occured!.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+PaginationParametersRequest -> PaginationParameters
+VisualSoft.Surveillance.Radar.Api.Models.PaginationParametersRequest -> VisualSoft.Surveillance.Radar.Domain.Models.PaginationParameters
+   at lambda_method113(Closure, Object, PaginationParameters, ResolutionContext)
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get(PaginationParametersRequest request) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Controllers\TransactionController.cs:line 105
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Middlewares\ExceptionMiddleware.cs:line 25
+2026-01-25 03:49:12.448 +05:00 [INF] Start processing HTTP request POST https://localhost:7285/api/login
+2026-01-25 03:49:12.463 +05:00 [INF] Sending HTTP request POST https://localhost:7285/api/login
+2026-01-25 03:49:17.711 +05:00 [ERR] Error Occurred
+System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7285))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7285)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at VisualSoft.Surveillance.Radar.Services.Infrastructure.ServiceUserAuthTokenExtractor.Extract() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Infrastructure\ServiceUserAuthTokenExtractor.cs:line 31
+   at VisualSoft.Surveillance.Radar.Services.Adapters.AdapterTemplate.CreateAuthenticatedClient() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\AdapterTemplate.cs:line 41
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at VisualSoft.Surveillance.Radar.Services.Adapters.AdapterTemplate.get_AuthenticatedClient() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\AdapterTemplate.cs:line 19
+   at VisualSoft.Surveillance.Radar.Services.Adapters.OrganisationAdapter.GetOrganisations() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\OrganisationAdapter.cs:line 48
+2026-01-25 03:52:26.572 +05:00 [ERR] Error occured!.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VisualSoft.Surveillance.Radar.Services.RadarTransactionService.TransformTransactionsWithOrganisation(IEnumerable`1 transactions) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\RadarTransactionService.cs:line 135
+   at VisualSoft.Surveillance.Radar.Services.RadarTransactionService.GetAllTransactions() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\RadarTransactionService.cs:line 66
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext)
+2026-01-25 03:52:44.260 +05:00 [ERR] Error occured!.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+PaginationParametersRequest -> PaginationParameters
+VisualSoft.Surveillance.Radar.Api.Models.PaginationParametersRequest -> VisualSoft.Surveillance.Radar.Domain.Models.PaginationParameters
+   at lambda_method113(Closure, Object, PaginationParameters, ResolutionContext)
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get(PaginationParametersRequest request)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext)
+2026-01-25 05:39:01.929 +05:00 [ERR] Error occured!.
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+PaginationParametersRequest -> PaginationParameters
+VisualSoft.Surveillance.Radar.Api.Models.PaginationParametersRequest -> VisualSoft.Surveillance.Radar.Domain.Models.PaginationParameters
+   at lambda_method113(Closure, Object, PaginationParameters, ResolutionContext)
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get(PaginationParametersRequest request)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext)

@@ -1,0 +1,6 @@
+@VisualSoft.Surveillance.Radar.Api_HostAddress = http://localhost:5211
+
+GET {{VisualSoft.Surveillance.Radar.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

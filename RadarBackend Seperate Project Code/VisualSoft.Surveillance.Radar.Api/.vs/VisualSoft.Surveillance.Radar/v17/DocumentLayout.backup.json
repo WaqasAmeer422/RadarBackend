@@ -1,0 +1,1103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E3896E-8B72-3CC0-E7DB-A35B985BDFAA}|..\\VisualSoft.Surveillance.Radar.Data\\VisualSoft.Surveillance.Radar.Data.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.data\\repositories\\radartransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.api\\visualsoft.surveillance.radar.api\\models\\paginationparametersrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|solutionrelative:visualsoft.surveillance.radar.api\\models\\paginationparametersrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.api\\visualsoft.surveillance.radar.api\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|solutionrelative:visualsoft.surveillance.radar.api\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5491C7C0-ACD4-4FE0-8C99-8CDB33A8BEF4}|..\\VisualSoft.Surveillance.Radar.Services\\VisualSoft.Surveillance.Radar.Services.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.services\\radartransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\models\\radartransactiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.api\\visualsoft.surveillance.radar.api\\profiles\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|solutionrelative:visualsoft.surveillance.radar.api\\profiles\\automapperprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E3896E-8B72-3CC0-E7DB-A35B985BDFAA}|..\\VisualSoft.Surveillance.Radar.Data\\VisualSoft.Surveillance.Radar.Data.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.data\\infrastructure\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.api\\visualsoft.surveillance.radar.api\\models\\transactionradarresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|solutionrelative:visualsoft.surveillance.radar.api\\models\\transactionradarresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.api\\visualsoft.surveillance.radar.api\\models\\paginationmetadataresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|solutionrelative:visualsoft.surveillance.radar.api\\models\\paginationmetadataresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\models\\paginationparameters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5491C7C0-ACD4-4FE0-8C99-8CDB33A8BEF4}|..\\VisualSoft.Surveillance.Radar.Services\\VisualSoft.Surveillance.Radar.Services.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.services\\handlers\\radartransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5491C7C0-ACD4-4FE0-8C99-8CDB33A8BEF4}|..\\VisualSoft.Surveillance.Radar.Services\\VisualSoft.Surveillance.Radar.Services.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.services\\hostedservices\\parserrequestradarconsumeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5491C7C0-ACD4-4FE0-8C99-8CDB33A8BEF4}|..\\VisualSoft.Surveillance.Radar.Services\\VisualSoft.Surveillance.Radar.Services.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.services\\handlers\\transactionservicehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E3896E-8B72-3CC0-E7DB-A35B985BDFAA}|..\\VisualSoft.Surveillance.Radar.Data\\VisualSoft.Surveillance.Radar.Data.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.data\\repositories\\iradartransactionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5491C7C0-ACD4-4FE0-8C99-8CDB33A8BEF4}|..\\VisualSoft.Surveillance.Radar.Services\\VisualSoft.Surveillance.Radar.Services.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.services\\iradartransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.api\\visualsoft.surveillance.radar.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|solutionrelative:visualsoft.surveillance.radar.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.api\\visualsoft.surveillance.radar.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|solutionrelative:visualsoft.surveillance.radar.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\models\\transactionfilterrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E3896E-8B72-3CC0-E7DB-A35B985BDFAA}|..\\VisualSoft.Surveillance.Radar.Data\\VisualSoft.Surveillance.Radar.Data.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.data\\repositories\\idevicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\models\\navigatetransactionfilterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\models\\radarpopupnotificationresponce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E3896E-8B72-3CC0-E7DB-A35B985BDFAA}|..\\VisualSoft.Surveillance.Radar.Data\\VisualSoft.Surveillance.Radar.Data.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.data\\repositories\\devicesettingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\constants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\models\\devicesettingdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\models\\devicedetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5491C7C0-ACD4-4FE0-8C99-8CDB33A8BEF4}|..\\VisualSoft.Surveillance.Radar.Services\\VisualSoft.Surveillance.Radar.Services.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.services\\rabbitmq\\rabbitmqeventservic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.api\\visualsoft.surveillance.radar.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|solutionrelative:visualsoft.surveillance.radar.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E3896E-8B72-3CC0-E7DB-A35B985BDFAA}|..\\VisualSoft.Surveillance.Radar.Data\\VisualSoft.Surveillance.Radar.Data.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.data\\infrastructure\\connectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5491C7C0-ACD4-4FE0-8C99-8CDB33A8BEF4}|..\\VisualSoft.Surveillance.Radar.Services\\VisualSoft.Surveillance.Radar.Services.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.services\\infrastructure\\serviceuserauthtokenextractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\configurations\\rabbitmqconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E3896E-8B72-3CC0-E7DB-A35B985BDFAA}|..\\VisualSoft.Surveillance.Radar.Data\\VisualSoft.Surveillance.Radar.Data.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.data\\infrastructure\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\models\\lookupdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E3896E-8B72-3CC0-E7DB-A35B985BDFAA}|..\\VisualSoft.Surveillance.Radar.Data\\VisualSoft.Surveillance.Radar.Data.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.data\\repositories\\lookuprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5491C7C0-ACD4-4FE0-8C99-8CDB33A8BEF4}|..\\VisualSoft.Surveillance.Radar.Services\\VisualSoft.Surveillance.Radar.Services.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.services\\visualsoft.surveillance.radar.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5491C7C0-ACD4-4FE0-8C99-8CDB33A8BEF4}|..\\VisualSoft.Surveillance.Radar.Services\\VisualSoft.Surveillance.Radar.Services.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.services\\infrastructure\\authtokenextractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\extensionmethods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\configurations\\serviceconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\configurations\\permissionconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\configurations\\itokenconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\enums\\errortype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\models\\loginresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\models\\hostedservicesconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\models\\apilinksconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5491C7C0-ACD4-4FE0-8C99-8CDB33A8BEF4}|..\\VisualSoft.Surveillance.Radar.Services\\VisualSoft.Surveillance.Radar.Services.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.services\\infrastructure\\iauthtokenextractor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\models\\customheaderconfigurations.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\exceptions\\validationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\utils\\validationerror.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\models\\urlspermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\configurations\\tokenconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E3896E-8B72-3CC0-E7DB-A35B985BDFAA}|..\\VisualSoft.Surveillance.Radar.Data\\VisualSoft.Surveillance.Radar.Data.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.data\\repositories\\idevicesettingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E3896E-8B72-3CC0-E7DB-A35B985BDFAA}|..\\VisualSoft.Surveillance.Radar.Data\\VisualSoft.Surveillance.Radar.Data.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.data\\infrastructure\\iqueryexecuter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E3896E-8B72-3CC0-E7DB-A35B985BDFAA}|..\\VisualSoft.Surveillance.Radar.Data\\VisualSoft.Surveillance.Radar.Data.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.data\\infrastructure\\iconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E3896E-8B72-3CC0-E7DB-A35B985BDFAA}|..\\VisualSoft.Surveillance.Radar.Data\\VisualSoft.Surveillance.Radar.Data.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.data\\infrastructure\\dbmigrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E3896E-8B72-3CC0-E7DB-A35B985BDFAA}|..\\VisualSoft.Surveillance.Radar.Data\\VisualSoft.Surveillance.Radar.Data.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.data\\infrastructure\\idbmigrator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\utils\\validationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5AE32594-1C44-27D5-12BD-39F2383BB17A}|..\\VisualSoft.Surveillance.Radar.Domain\\VisualSoft.Surveillance.Radar.Domain.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.domain\\models\\radarnotificationcountresponce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E3896E-8B72-3CC0-E7DB-A35B985BDFAA}|..\\VisualSoft.Surveillance.Radar.Data\\VisualSoft.Surveillance.Radar.Data.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.data\\models\\devicesettingmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E3896E-8B72-3CC0-E7DB-A35B985BDFAA}|..\\VisualSoft.Surveillance.Radar.Data\\VisualSoft.Surveillance.Radar.Data.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.data\\models\\basemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.api\\visualsoft.surveillance.radar.api\\models\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|solutionrelative:visualsoft.surveillance.radar.api\\models\\errorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.api\\visualsoft.surveillance.radar.api\\middlewares\\requesttimingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|solutionrelative:visualsoft.surveillance.radar.api\\middlewares\\requesttimingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.api\\visualsoft.surveillance.radar.api\\middlewares\\middlewareextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|solutionrelative:visualsoft.surveillance.radar.api\\middlewares\\middlewareextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.api\\visualsoft.surveillance.radar.api\\middlewares\\httpexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|solutionrelative:visualsoft.surveillance.radar.api\\middlewares\\httpexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.api\\visualsoft.surveillance.radar.api\\middlewares\\httpcontextextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|solutionrelative:visualsoft.surveillance.radar.api\\middlewares\\httpcontextextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.api\\visualsoft.surveillance.radar.api\\infrastructure\\permissionrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|solutionrelative:visualsoft.surveillance.radar.api\\infrastructure\\permissionrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.api\\visualsoft.surveillance.radar.api\\infrastructure\\permissionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|solutionrelative:visualsoft.surveillance.radar.api\\infrastructure\\permissionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.api\\visualsoft.surveillance.radar.api\\infrastructure\\authorizationhandlercontextextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|solutionrelative:visualsoft.surveillance.radar.api\\infrastructure\\authorizationhandlercontextextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.api\\visualsoft.surveillance.radar.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|solutionrelative:visualsoft.surveillance.radar.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend\\visualsoft.surveillance.radar.api\\visualsoft.surveillance.radar.api\\visualsoft.surveillance.radar.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{7EF3299A-BB94-67C4-7CCF-91F256F70571}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|solutionrelative:visualsoft.surveillance.radar.api\\visualsoft.surveillance.radar.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 382,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "VisualSoft.Surveillance.Radar.Api\\Controllers\\TransactionController.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "VisualSoft.Surveillance.Radar.Api\\Controllers\\TransactionController.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAqwC0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T06:12:59.006Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RadarTransactionService.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\RadarTransactionService.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Services\\RadarTransactionService.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\RadarTransactionService.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Services\\RadarTransactionService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAuwEoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T11:31:16.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RadarTransactionRepository.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Repositories\\RadarTransactionRepository.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Data\\Repositories\\RadarTransactionRepository.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Repositories\\RadarTransactionRepository.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Data\\Repositories\\RadarTransactionRepository.cs",
+              "ViewState": "AgIAAKkAAAAAAAAAAAAiwLcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T11:38:58.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PaginationParametersRequest.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Models\\PaginationParametersRequest.cs",
+              "RelativeDocumentMoniker": "VisualSoft.Surveillance.Radar.Api\\Models\\PaginationParametersRequest.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Models\\PaginationParametersRequest.cs",
+              "RelativeToolTip": "VisualSoft.Surveillance.Radar.Api\\Models\\PaginationParametersRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T04:36:48.692Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RadarTransactionDto.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\RadarTransactionDto.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\RadarTransactionDto.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\RadarTransactionDto.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\RadarTransactionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T06:37:37.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AutoMapperProfile.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Profiles\\AutoMapperProfile.cs",
+              "RelativeDocumentMoniker": "VisualSoft.Surveillance.Radar.Api\\Profiles\\AutoMapperProfile.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Profiles\\AutoMapperProfile.cs",
+              "RelativeToolTip": "VisualSoft.Surveillance.Radar.Api\\Profiles\\AutoMapperProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T07:18:25.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\UnitOfWork.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\UnitOfWork.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\UnitOfWork.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAwFMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T05:46:51.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TransactionRadarResponse.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Models\\TransactionRadarResponse.cs",
+              "RelativeDocumentMoniker": "VisualSoft.Surveillance.Radar.Api\\Models\\TransactionRadarResponse.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Models\\TransactionRadarResponse.cs",
+              "RelativeToolTip": "VisualSoft.Surveillance.Radar.Api\\Models\\TransactionRadarResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-27T06:33:00.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PaginationMetaDataResponse.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Models\\PaginationMetaDataResponse.cs",
+              "RelativeDocumentMoniker": "VisualSoft.Surveillance.Radar.Api\\Models\\PaginationMetaDataResponse.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Models\\PaginationMetaDataResponse.cs",
+              "RelativeToolTip": "VisualSoft.Surveillance.Radar.Api\\Models\\PaginationMetaDataResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T04:38:55.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PaginationParameters.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\PaginationParameters.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\PaginationParameters.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\PaginationParameters.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\PaginationParameters.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T19:15:22.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ParserRequestRadarConsumeService.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\HostedServices\\ParserRequestRadarConsumeService.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Services\\HostedServices\\ParserRequestRadarConsumeService.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\HostedServices\\ParserRequestRadarConsumeService.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Services\\HostedServices\\ParserRequestRadarConsumeService.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAwGkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T17:13:20.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TransactionServiceHandler.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\Handlers\\TransactionServiceHandler.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Services\\Handlers\\TransactionServiceHandler.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\Handlers\\TransactionServiceHandler.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Services\\Handlers\\TransactionServiceHandler.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA9wDAAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T14:10:20.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RADARTransactionService.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\Handlers\\RADARTransactionService.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Services\\Handlers\\RADARTransactionService.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\Handlers\\RADARTransactionService.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Services\\Handlers\\RADARTransactionService.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAADgv5gAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T11:57:37.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IRadarTransactionRepository.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Repositories\\IRadarTransactionRepository.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Data\\Repositories\\IRadarTransactionRepository.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Repositories\\IRadarTransactionRepository.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Data\\Repositories\\IRadarTransactionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwA4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T13:56:20.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IRadarTransactionService.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\IRadarTransactionService.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Services\\IRadarTransactionService.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\IRadarTransactionService.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Services\\IRadarTransactionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T11:30:40.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "VisualSoft.Surveillance.Radar.Api\\appsettings.Development.json",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\appsettings.Development.json",
+              "RelativeToolTip": "VisualSoft.Surveillance.Radar.Api\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-19T07:14:25.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "VisualSoft.Surveillance.Radar.Api\\appsettings.json",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\appsettings.json",
+              "RelativeToolTip": "VisualSoft.Surveillance.Radar.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-20T07:33:25.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TransactionFilterRequestDto.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\TransactionFilterRequestDto.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\TransactionFilterRequestDto.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\TransactionFilterRequestDto.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\TransactionFilterRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T18:56:17.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IDeviceRepository.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Repositories\\IDeviceRepository.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Data\\Repositories\\IDeviceRepository.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Repositories\\IDeviceRepository.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Data\\Repositories\\IDeviceRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T19:09:16.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "NavigateTransactionFilterDto.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\NavigateTransactionFilterDto.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\NavigateTransactionFilterDto.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\NavigateTransactionFilterDto.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\NavigateTransactionFilterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T21:55:02.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RadarPopUpNotificationResponce.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\RadarPopUpNotificationResponce.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\RadarPopUpNotificationResponce.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\RadarPopUpNotificationResponce.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\RadarPopUpNotificationResponce.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T11:15:20.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DeviceSettingRepository.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Repositories\\DeviceSettingRepository.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Data\\Repositories\\DeviceSettingRepository.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Repositories\\DeviceSettingRepository.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Data\\Repositories\\DeviceSettingRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA8wCgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T05:33:14.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Constants.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Constants.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\Constants.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Constants.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\Constants.cs",
+              "ViewState": "AgIAAM0AAAAAAAAAAAA8wNsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T11:41:44.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DeviceSettingDto.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\DeviceSettingDto.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\DeviceSettingDto.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\DeviceSettingDto.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\DeviceSettingDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T19:12:47.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DeviceDetailDto.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\DeviceDetailDto.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\DeviceDetailDto.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\DeviceDetailDto.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\DeviceDetailDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T19:11:06.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "RabbitMQEventServic.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\RabbitMQ\\RabbitMQEventServic.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Services\\RabbitMQ\\RabbitMQEventServic.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\RabbitMQ\\RabbitMQEventServic.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Services\\RabbitMQ\\RabbitMQEventServic.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T11:44:06.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Program.cs",
+              "RelativeDocumentMoniker": "VisualSoft.Surveillance.Radar.Api\\Program.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Program.cs",
+              "RelativeToolTip": "VisualSoft.Surveillance.Radar.Api\\Program.cs",
+              "ViewState": "AgIAAM0AAAAAAAAAAAAmwNsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T07:14:47.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ConnectionFactory.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\ConnectionFactory.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\ConnectionFactory.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\ConnectionFactory.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\ConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T11:36:09.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ServiceUserAuthTokenExtractor.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\Infrastructure\\ServiceUserAuthTokenExtractor.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Services\\Infrastructure\\ServiceUserAuthTokenExtractor.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\Infrastructure\\ServiceUserAuthTokenExtractor.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Services\\Infrastructure\\ServiceUserAuthTokenExtractor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T06:03:11.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RabbitMQConfiguration.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Configurations\\RabbitMQConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\Configurations\\RabbitMQConfiguration.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Configurations\\RabbitMQConfiguration.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\Configurations\\RabbitMQConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T11:39:36.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\IUnitOfWork.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\IUnitOfWork.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T13:55:10.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "LookupDto.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\LookupDto.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\LookupDto.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\LookupDto.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\LookupDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T12:57:31.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "LookupRepository.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Repositories\\LookupRepository.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Data\\Repositories\\LookupRepository.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Repositories\\LookupRepository.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Data\\Repositories\\LookupRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T13:01:56.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "VisualSoft.Surveillance.Radar.Services.csproj",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\VisualSoft.Surveillance.Radar.Services.csproj",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Services\\VisualSoft.Surveillance.Radar.Services.csproj",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\VisualSoft.Surveillance.Radar.Services.csproj",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Services\\VisualSoft.Surveillance.Radar.Services.csproj",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-20T11:22:59.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AuthTokenExtractor.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\Infrastructure\\AuthTokenExtractor.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Services\\Infrastructure\\AuthTokenExtractor.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\Infrastructure\\AuthTokenExtractor.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Services\\Infrastructure\\AuthTokenExtractor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T06:02:58.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ExtensionMethods.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\ExtensionMethods.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\ExtensionMethods.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\ExtensionMethods.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\ExtensionMethods.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAwwAMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T11:42:00.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ServiceConfiguration.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Configurations\\ServiceConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\Configurations\\ServiceConfiguration.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Configurations\\ServiceConfiguration.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\Configurations\\ServiceConfiguration.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAnwD0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T12:25:44.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "PermissionConfiguration.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Configurations\\PermissionConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\Configurations\\PermissionConfiguration.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Configurations\\PermissionConfiguration.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\Configurations\\PermissionConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T05:45:05.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "ITokenConfiguration.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Configurations\\ITokenConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\Configurations\\ITokenConfiguration.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Configurations\\ITokenConfiguration.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\Configurations\\ITokenConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T05:42:16.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ErrorResponse.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Models\\ErrorResponse.cs",
+              "RelativeDocumentMoniker": "VisualSoft.Surveillance.Radar.Api\\Models\\ErrorResponse.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Models\\ErrorResponse.cs",
+              "RelativeToolTip": "VisualSoft.Surveillance.Radar.Api\\Models\\ErrorResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T06:52:37.54Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "RequestTimingMiddleware.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Middlewares\\RequestTimingMiddleware.cs",
+              "RelativeDocumentMoniker": "VisualSoft.Surveillance.Radar.Api\\Middlewares\\RequestTimingMiddleware.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Middlewares\\RequestTimingMiddleware.cs",
+              "RelativeToolTip": "VisualSoft.Surveillance.Radar.Api\\Middlewares\\RequestTimingMiddleware.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T06:50:12.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "MiddlewareExtension.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Middlewares\\MiddlewareExtension.cs",
+              "RelativeDocumentMoniker": "VisualSoft.Surveillance.Radar.Api\\Middlewares\\MiddlewareExtension.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Middlewares\\MiddlewareExtension.cs",
+              "RelativeToolTip": "VisualSoft.Surveillance.Radar.Api\\Middlewares\\MiddlewareExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T06:50:02.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "HttpException.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Middlewares\\HttpException.cs",
+              "RelativeDocumentMoniker": "VisualSoft.Surveillance.Radar.Api\\Middlewares\\HttpException.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Middlewares\\HttpException.cs",
+              "RelativeToolTip": "VisualSoft.Surveillance.Radar.Api\\Middlewares\\HttpException.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T06:49:51.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "HttpContextExtension.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Middlewares\\HttpContextExtension.cs",
+              "RelativeDocumentMoniker": "VisualSoft.Surveillance.Radar.Api\\Middlewares\\HttpContextExtension.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Middlewares\\HttpContextExtension.cs",
+              "RelativeToolTip": "VisualSoft.Surveillance.Radar.Api\\Middlewares\\HttpContextExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T06:49:25.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "PermissionRequirement.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Infrastructure\\PermissionRequirement.cs",
+              "RelativeDocumentMoniker": "VisualSoft.Surveillance.Radar.Api\\Infrastructure\\PermissionRequirement.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Infrastructure\\PermissionRequirement.cs",
+              "RelativeToolTip": "VisualSoft.Surveillance.Radar.Api\\Infrastructure\\PermissionRequirement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:01:34.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "PermissionHandler.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Infrastructure\\PermissionHandler.cs",
+              "RelativeDocumentMoniker": "VisualSoft.Surveillance.Radar.Api\\Infrastructure\\PermissionHandler.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Infrastructure\\PermissionHandler.cs",
+              "RelativeToolTip": "VisualSoft.Surveillance.Radar.Api\\Infrastructure\\PermissionHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:01:23.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "AuthorizationHandlerContextExtension.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Infrastructure\\AuthorizationHandlerContextExtension.cs",
+              "RelativeDocumentMoniker": "VisualSoft.Surveillance.Radar.Api\\Infrastructure\\AuthorizationHandlerContextExtension.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Infrastructure\\AuthorizationHandlerContextExtension.cs",
+              "RelativeToolTip": "VisualSoft.Surveillance.Radar.Api\\Infrastructure\\AuthorizationHandlerContextExtension.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T07:00:29.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "VisualSoft.Surveillance.Radar.Api\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "VisualSoft.Surveillance.Radar.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-20T07:42:07.083Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "VisualSoft.Surveillance.Radar.Api.http",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.http",
+              "RelativeDocumentMoniker": "VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.http",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.http",
+              "RelativeToolTip": "VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-01-20T07:43:55.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "ErrorType.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Enums\\ErrorType.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\Enums\\ErrorType.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Enums\\ErrorType.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\Enums\\ErrorType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T06:54:56.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "LoginResponse.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\LoginResponse.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\LoginResponse.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\LoginResponse.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\LoginResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T06:30:22.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "HostedServicesConfigurations.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\HostedServicesConfigurations.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\HostedServicesConfigurations.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\HostedServicesConfigurations.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\HostedServicesConfigurations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T06:22:18.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ApiLinksConfigurations.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\ApiLinksConfigurations.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\ApiLinksConfigurations.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\ApiLinksConfigurations.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\ApiLinksConfigurations.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T19:23:03.978Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\LoginRequest.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\LoginRequest.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T06:20:17.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IAuthTokenExtractor.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\Infrastructure\\IAuthTokenExtractor.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Services\\Infrastructure\\IAuthTokenExtractor.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Services\\Infrastructure\\IAuthTokenExtractor.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Services\\Infrastructure\\IAuthTokenExtractor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T06:03:04.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "CustomHeaderConfigurations.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\CustomHeaderConfigurations.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\CustomHeaderConfigurations.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\CustomHeaderConfigurations.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\CustomHeaderConfigurations.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T06:12:54.317Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "ValidationException.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Exceptions\\ValidationException.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\Exceptions\\ValidationException.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Exceptions\\ValidationException.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\Exceptions\\ValidationException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T11:40:44.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "ValidationError.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Utils\\ValidationError.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\Utils\\ValidationError.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Utils\\ValidationError.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\Utils\\ValidationError.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T11:41:24.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "UrlsPermission.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\UrlsPermission.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\UrlsPermission.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\UrlsPermission.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\UrlsPermission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T05:47:00.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "TokenConfiguration.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Configurations\\TokenConfiguration.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\Configurations\\TokenConfiguration.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Configurations\\TokenConfiguration.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\Configurations\\TokenConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T05:41:47.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "IDeviceSettingRepository.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Repositories\\IDeviceSettingRepository.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Data\\Repositories\\IDeviceSettingRepository.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Repositories\\IDeviceSettingRepository.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Data\\Repositories\\IDeviceSettingRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T19:40:39.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "IQueryExecuter.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\IQueryExecuter.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\IQueryExecuter.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\IQueryExecuter.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\IQueryExecuter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-20T04:51:28.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "IConnectionFactory.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\IConnectionFactory.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\IConnectionFactory.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\IConnectionFactory.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\IConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T11:36:35.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "DBMigrator.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\DBMigrator.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\DBMigrator.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\DBMigrator.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\DBMigrator.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwDIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T11:36:25.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "IDBMigrator.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\IDBMigrator.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\IDBMigrator.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\IDBMigrator.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Data\\Infrastructure\\IDBMigrator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T11:36:45.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "ValidationResult.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Utils\\ValidationResult.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\Utils\\ValidationResult.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Utils\\ValidationResult.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\Utils\\ValidationResult.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T11:41:36.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "RadarNotificationCountResponce.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\RadarNotificationCountResponce.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\RadarNotificationCountResponce.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Domain\\Models\\RadarNotificationCountResponce.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Domain\\Models\\RadarNotificationCountResponce.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T11:11:58.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "DeviceSettingModel.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Models\\DeviceSettingModel.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Data\\Models\\DeviceSettingModel.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Models\\DeviceSettingModel.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Data\\Models\\DeviceSettingModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T12:29:53.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "BaseModel.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Models\\BaseModel.cs",
+              "RelativeDocumentMoniker": "..\\VisualSoft.Surveillance.Radar.Data\\Models\\BaseModel.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend\\VisualSoft.Surveillance.Radar.Data\\Models\\BaseModel.cs",
+              "RelativeToolTip": "..\\VisualSoft.Surveillance.Radar.Data\\Models\\BaseModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-19T11:37:55.153Z"
+            }
+          ]
+        },
+        {
+          "DockedHeight": 414,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

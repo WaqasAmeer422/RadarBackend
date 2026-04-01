@@ -1,0 +1,753 @@
+2026-01-26 10:20:06.377 +05:00 [INF] Start processing HTTP request POST https://localhost:7285/api/login
+2026-01-26 10:20:06.385 +05:00 [INF] Sending HTTP request POST https://localhost:7285/api/login
+2026-01-26 10:20:10.912 +05:00 [ERR] Error Occurred
+System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7285))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7285)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at VisualSoft.Surveillance.Radar.Services.Infrastructure.ServiceUserAuthTokenExtractor.Extract()
+   at VisualSoft.Surveillance.Radar.Services.Adapters.AdapterTemplate.CreateAuthenticatedClient()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at VisualSoft.Surveillance.Radar.Services.Adapters.AdapterTemplate.get_AuthenticatedClient()
+   at VisualSoft.Surveillance.Radar.Services.Adapters.OrganisationAdapter.GetOrganisations()
+2026-01-26 10:57:30.377 +05:00 [INF] Beginning transaction
+2026-01-26 10:57:30.538 +05:00 [INF] Beginning database upgrade
+2026-01-26 10:57:30.544 +05:00 [INF] Checking whether journal table exists..
+2026-01-26 10:57:30.575 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-26 10:57:30.597 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-26 10:57:30.760 +05:00 [INF] Beginning transaction
+2026-01-26 10:57:30.761 +05:00 [INF] Beginning database upgrade
+2026-01-26 10:57:30.761 +05:00 [INF] Checking whether journal table exists..
+2026-01-26 10:57:30.788 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-26 10:57:30.796 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-26 10:57:33.314 +05:00 [INF] Starting Parser Request Consumer service {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 10:57:34.653 +05:00 [INF] Now listening on: https://localhost:7229
+2026-01-26 10:57:34.656 +05:00 [INF] Now listening on: http://localhost:5211
+2026-01-26 10:57:35.002 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-26 10:57:35.012 +05:00 [INF] Hosting environment: Development
+2026-01-26 10:57:35.012 +05:00 [INF] Content root path: D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api
+2026-01-26 11:06:36.582 +05:00 [INF] Beginning transaction
+2026-01-26 11:06:36.710 +05:00 [INF] Beginning database upgrade
+2026-01-26 11:06:36.717 +05:00 [INF] Checking whether journal table exists..
+2026-01-26 11:06:36.751 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-26 11:06:36.773 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-26 11:06:36.933 +05:00 [INF] Beginning transaction
+2026-01-26 11:06:36.933 +05:00 [INF] Beginning database upgrade
+2026-01-26 11:06:36.934 +05:00 [INF] Checking whether journal table exists..
+2026-01-26 11:06:36.960 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-26 11:06:36.968 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-26 11:06:38.193 +05:00 [INF] Starting Parser Request Consumer service {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 11:06:39.455 +05:00 [INF] Now listening on: https://localhost:7229
+2026-01-26 11:06:39.466 +05:00 [INF] Now listening on: http://localhost:5211
+2026-01-26 11:06:39.968 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-26 11:06:39.969 +05:00 [INF] Hosting environment: Development
+2026-01-26 11:06:39.970 +05:00 [INF] Content root path: D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api
+2026-01-26 11:07:53.655 +05:00 [ERR] JWT Authentication failed: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '1/26/2026 12:09:13 AM', Current time (UTC): '1/26/2026 6:07:53 AM'.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '1/26/2026 12:09:13 AM', Current time (UTC): '1/26/2026 6:07:53 AM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2026-01-26 11:08:29.471 +05:00 [INF] Start processing HTTP request POST https://localhost:7285/api/login
+2026-01-26 11:08:29.483 +05:00 [INF] Sending HTTP request POST https://localhost:7285/api/login
+2026-01-26 11:08:34.043 +05:00 [ERR] Error Occurred
+System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7285))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7285)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at VisualSoft.Surveillance.Radar.Services.Infrastructure.ServiceUserAuthTokenExtractor.Extract() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Infrastructure\ServiceUserAuthTokenExtractor.cs:line 31
+   at VisualSoft.Surveillance.Radar.Services.Adapters.AdapterTemplate.CreateAuthenticatedClient() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\AdapterTemplate.cs:line 41
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at VisualSoft.Surveillance.Radar.Services.Adapters.AdapterTemplate.get_AuthenticatedClient() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\AdapterTemplate.cs:line 19
+   at VisualSoft.Surveillance.Radar.Services.Adapters.OrganisationAdapter.GetOrganisations() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\OrganisationAdapter.cs:line 48
+2026-01-26 11:23:31.008 +05:00 [ERR] Error occured!.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VisualSoft.Surveillance.Radar.Services.RadarTransactionService.TransformTransactionsWithOrganisation(IEnumerable`1 transactions) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\RadarTransactionService.cs:line 114
+   at VisualSoft.Surveillance.Radar.Services.RadarTransactionService.GetAllTransactions() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\RadarTransactionService.cs:line 45
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Controllers\TransactionController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Middlewares\ExceptionMiddleware.cs:line 25
+2026-01-26 11:26:19.231 +05:00 [INF] Start processing HTTP request POST https://localhost:7285/api/login
+2026-01-26 11:26:19.232 +05:00 [INF] Sending HTTP request POST https://localhost:7285/api/login
+2026-01-26 11:26:23.779 +05:00 [ERR] Error Occurred
+System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7285))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7285)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at VisualSoft.Surveillance.Radar.Services.Infrastructure.ServiceUserAuthTokenExtractor.Extract() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Infrastructure\ServiceUserAuthTokenExtractor.cs:line 31
+   at VisualSoft.Surveillance.Radar.Services.Adapters.AdapterTemplate.CreateAuthenticatedClient() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\AdapterTemplate.cs:line 41
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at VisualSoft.Surveillance.Radar.Services.Adapters.AdapterTemplate.get_AuthenticatedClient() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\AdapterTemplate.cs:line 19
+   at VisualSoft.Surveillance.Radar.Services.Adapters.OrganisationAdapter.GetOrganisations() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\OrganisationAdapter.cs:line 48
+2026-01-26 11:53:32.520 +05:00 [INF] Beginning transaction
+2026-01-26 11:53:32.786 +05:00 [INF] Beginning database upgrade
+2026-01-26 11:53:32.798 +05:00 [INF] Checking whether journal table exists..
+2026-01-26 11:53:32.855 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-26 11:53:32.886 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-26 11:53:33.112 +05:00 [INF] Beginning transaction
+2026-01-26 11:53:33.112 +05:00 [INF] Beginning database upgrade
+2026-01-26 11:53:33.112 +05:00 [INF] Checking whether journal table exists..
+2026-01-26 11:53:33.150 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-26 11:53:33.159 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-26 11:53:34.076 +05:00 [INF] Starting Parser Request Consumer service {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 11:53:41.986 +05:00 [INF] Consuming message from Rabbit MQ. {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 11:53:42.594 +05:00 [INF] Now listening on: https://localhost:7229
+2026-01-26 11:53:42.599 +05:00 [INF] Now listening on: http://localhost:5211
+2026-01-26 11:53:42.693 +05:00 [INF] Starting Creating Transcation Process {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 11:53:42.820 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-26 11:53:42.821 +05:00 [INF] Hosting environment: Development
+2026-01-26 11:53:42.821 +05:00 [INF] Content root path: D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api
+2026-01-26 11:53:53.358 +05:00 [INF] Radar Presence Detected at 
+2026-01-26 11:53:53.425 +05:00 [INF] Radar Data Saved. ID: VisualSoft.Surveillance.Radar.Domain.Models.RadarTransactionDto
+2026-01-26 11:54:11.875 +05:00 [INF] Consuming message from Rabbit MQ. {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 11:54:11.882 +05:00 [INF] Starting Creating Transcation Process {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 11:54:14.861 +05:00 [INF] Radar Presence Detected at 
+2026-01-26 11:54:14.873 +05:00 [INF] Radar Data Saved. ID: VisualSoft.Surveillance.Radar.Domain.Models.RadarTransactionDto
+2026-01-26 11:55:26.263 +05:00 [INF] Start processing HTTP request POST https://localhost:7285/api/login
+2026-01-26 11:55:26.277 +05:00 [INF] Sending HTTP request POST https://localhost:7285/api/login
+2026-01-26 11:55:31.031 +05:00 [ERR] Error Occurred
+System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7285))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7285)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at VisualSoft.Surveillance.Radar.Services.Infrastructure.ServiceUserAuthTokenExtractor.Extract() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Infrastructure\ServiceUserAuthTokenExtractor.cs:line 31
+   at VisualSoft.Surveillance.Radar.Services.Adapters.AdapterTemplate.CreateAuthenticatedClient() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\AdapterTemplate.cs:line 41
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at VisualSoft.Surveillance.Radar.Services.Adapters.AdapterTemplate.get_AuthenticatedClient() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\AdapterTemplate.cs:line 19
+   at VisualSoft.Surveillance.Radar.Services.Adapters.OrganisationAdapter.GetOrganisations() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\OrganisationAdapter.cs:line 48
+2026-01-26 11:56:45.312 +05:00 [ERR] Error occured!.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VisualSoft.Surveillance.Radar.Services.RadarTransactionService.TransformTransactionsWithOrganisation(IEnumerable`1 transactions) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\RadarTransactionService.cs:line 114
+   at VisualSoft.Surveillance.Radar.Services.RadarTransactionService.GetAllTransactions() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\RadarTransactionService.cs:line 45
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Controllers\TransactionController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Middlewares\ExceptionMiddleware.cs:line 25
+2026-01-26 12:00:26.097 +05:00 [INF] Start processing HTTP request POST https://localhost:7285/api/login
+2026-01-26 12:00:26.098 +05:00 [INF] Sending HTTP request POST https://localhost:7285/api/login
+2026-01-26 12:00:30.626 +05:00 [ERR] Error Occurred
+System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7285))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7285)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at VisualSoft.Surveillance.Radar.Services.Infrastructure.ServiceUserAuthTokenExtractor.Extract() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Infrastructure\ServiceUserAuthTokenExtractor.cs:line 31
+   at VisualSoft.Surveillance.Radar.Services.Adapters.AdapterTemplate.CreateAuthenticatedClient() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\AdapterTemplate.cs:line 41
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at VisualSoft.Surveillance.Radar.Services.Adapters.AdapterTemplate.get_AuthenticatedClient() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\AdapterTemplate.cs:line 19
+   at VisualSoft.Surveillance.Radar.Services.Adapters.OrganisationAdapter.GetOrganisations() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\OrganisationAdapter.cs:line 48
+2026-01-26 12:02:13.155 +05:00 [ERR] Error occured!.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VisualSoft.Surveillance.Radar.Services.RadarTransactionService.TransformTransactionsWithOrganisation(IEnumerable`1 transactions) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\RadarTransactionService.cs:line 114
+   at VisualSoft.Surveillance.Radar.Services.RadarTransactionService.GetAllTransactions() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\RadarTransactionService.cs:line 45
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Controllers\TransactionController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Middlewares\ExceptionMiddleware.cs:line 25
+2026-01-26 12:30:53.999 +05:00 [INF] Beginning transaction
+2026-01-26 12:30:54.107 +05:00 [INF] Beginning database upgrade
+2026-01-26 12:30:54.112 +05:00 [INF] Checking whether journal table exists..
+2026-01-26 12:30:54.151 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-26 12:30:54.177 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-26 12:30:54.370 +05:00 [INF] Beginning transaction
+2026-01-26 12:30:54.370 +05:00 [INF] Beginning database upgrade
+2026-01-26 12:30:54.370 +05:00 [INF] Checking whether journal table exists..
+2026-01-26 12:30:54.409 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-26 12:30:54.416 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-26 12:30:56.907 +05:00 [INF] Starting Parser Request Consumer service {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 12:30:58.080 +05:00 [INF] Now listening on: https://localhost:7229
+2026-01-26 12:30:58.087 +05:00 [INF] Now listening on: http://localhost:5211
+2026-01-26 12:30:58.555 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-26 12:30:58.556 +05:00 [INF] Hosting environment: Development
+2026-01-26 12:30:58.556 +05:00 [INF] Content root path: D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api
+2026-01-26 12:31:16.753 +05:00 [INF] Start processing HTTP request POST https://localhost:7285/api/login
+2026-01-26 12:31:16.774 +05:00 [INF] Sending HTTP request POST https://localhost:7285/api/login
+2026-01-26 12:31:21.237 +05:00 [ERR] Error Occurred
+System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7285))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7285)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at VisualSoft.Surveillance.Radar.Services.Infrastructure.ServiceUserAuthTokenExtractor.Extract() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Infrastructure\ServiceUserAuthTokenExtractor.cs:line 31
+   at VisualSoft.Surveillance.Radar.Services.Adapters.AdapterTemplate.CreateAuthenticatedClient() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\AdapterTemplate.cs:line 41
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at VisualSoft.Surveillance.Radar.Services.Adapters.AdapterTemplate.get_AuthenticatedClient() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\AdapterTemplate.cs:line 19
+   at VisualSoft.Surveillance.Radar.Services.Adapters.OrganisationAdapter.GetOrganisations() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\OrganisationAdapter.cs:line 48
+2026-01-26 12:31:59.916 +05:00 [ERR] Error occured!.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VisualSoft.Surveillance.Radar.Services.RadarTransactionService.TransformTransactionsWithOrganisation(IEnumerable`1 transactions) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\RadarTransactionService.cs:line 114
+   at VisualSoft.Surveillance.Radar.Services.RadarTransactionService.GetAllTransactions() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\RadarTransactionService.cs:line 45
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Controllers\TransactionController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Middlewares\ExceptionMiddleware.cs:line 25
+2026-01-26 12:33:33.854 +05:00 [INF] Start processing HTTP request POST https://localhost:7285/api/login
+2026-01-26 12:33:33.855 +05:00 [INF] Sending HTTP request POST https://localhost:7285/api/login
+2026-01-26 12:33:38.703 +05:00 [ERR] Error Occurred
+System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7285))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7285)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at VisualSoft.Surveillance.Radar.Services.Infrastructure.ServiceUserAuthTokenExtractor.Extract() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Infrastructure\ServiceUserAuthTokenExtractor.cs:line 31
+   at VisualSoft.Surveillance.Radar.Services.Adapters.AdapterTemplate.CreateAuthenticatedClient() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\AdapterTemplate.cs:line 41
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at VisualSoft.Surveillance.Radar.Services.Adapters.AdapterTemplate.get_AuthenticatedClient() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\AdapterTemplate.cs:line 19
+   at VisualSoft.Surveillance.Radar.Services.Adapters.OrganisationAdapter.GetOrganisations() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\OrganisationAdapter.cs:line 48
+2026-01-26 12:43:00.441 +05:00 [ERR] Error occured!.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VisualSoft.Surveillance.Radar.Services.RadarTransactionService.TransformTransactionsWithOrganisation(IEnumerable`1 transactions) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\RadarTransactionService.cs:line 114
+   at VisualSoft.Surveillance.Radar.Services.RadarTransactionService.GetAllTransactions() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\RadarTransactionService.cs:line 45
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Controllers\TransactionController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Middlewares\ExceptionMiddleware.cs:line 25
+2026-01-26 12:43:22.652 +05:00 [INF] Start processing HTTP request POST https://localhost:7285/api/login
+2026-01-26 12:43:22.653 +05:00 [INF] Sending HTTP request POST https://localhost:7285/api/login
+2026-01-26 12:43:56.390 +05:00 [ERR] Error Occurred
+System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7285))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7285)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at VisualSoft.Surveillance.Radar.Services.Infrastructure.ServiceUserAuthTokenExtractor.Extract() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Infrastructure\ServiceUserAuthTokenExtractor.cs:line 31
+   at VisualSoft.Surveillance.Radar.Services.Adapters.AdapterTemplate.CreateAuthenticatedClient() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\AdapterTemplate.cs:line 41
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at VisualSoft.Surveillance.Radar.Services.Adapters.AdapterTemplate.get_AuthenticatedClient() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\AdapterTemplate.cs:line 19
+   at VisualSoft.Surveillance.Radar.Services.Adapters.OrganisationAdapter.GetOrganisations() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\OrganisationAdapter.cs:line 48
+2026-01-26 12:45:54.968 +05:00 [ERR] Error occured!.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VisualSoft.Surveillance.Radar.Services.RadarTransactionService.TransformTransactionsWithOrganisation(IEnumerable`1 transactions) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\RadarTransactionService.cs:line 114
+   at VisualSoft.Surveillance.Radar.Services.RadarTransactionService.GetAllTransactions() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\RadarTransactionService.cs:line 45
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Controllers\TransactionController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Middlewares\ExceptionMiddleware.cs:line 25
+2026-01-26 12:46:08.364 +05:00 [INF] Start processing HTTP request POST https://localhost:7285/api/login
+2026-01-26 12:46:08.364 +05:00 [INF] Sending HTTP request POST https://localhost:7285/api/login
+2026-01-26 13:08:45.860 +05:00 [INF] Beginning transaction
+2026-01-26 13:08:45.987 +05:00 [INF] Beginning database upgrade
+2026-01-26 13:08:45.993 +05:00 [INF] Checking whether journal table exists..
+2026-01-26 13:08:46.032 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-26 13:08:46.054 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-26 13:08:46.286 +05:00 [INF] Beginning transaction
+2026-01-26 13:08:46.287 +05:00 [INF] Beginning database upgrade
+2026-01-26 13:08:46.287 +05:00 [INF] Checking whether journal table exists..
+2026-01-26 13:08:46.334 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-26 13:08:46.346 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-26 13:08:48.229 +05:00 [INF] Starting Parser Request Consumer service {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 13:08:49.936 +05:00 [INF] Now listening on: https://localhost:7229
+2026-01-26 13:08:49.944 +05:00 [INF] Now listening on: http://localhost:5211
+2026-01-26 13:08:50.677 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-26 13:08:50.678 +05:00 [INF] Hosting environment: Development
+2026-01-26 13:08:50.678 +05:00 [INF] Content root path: D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api
+2026-01-26 13:10:09.588 +05:00 [INF] Start processing HTTP request POST https://localhost:7285/api/login
+2026-01-26 13:10:09.605 +05:00 [INF] Sending HTTP request POST https://localhost:7285/api/login
+2026-01-26 13:10:57.434 +05:00 [ERR] Error Occurred
+System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7285))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7285)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at VisualSoft.Surveillance.Radar.Services.Infrastructure.ServiceUserAuthTokenExtractor.Extract() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Infrastructure\ServiceUserAuthTokenExtractor.cs:line 31
+   at VisualSoft.Surveillance.Radar.Services.Adapters.AdapterTemplate.CreateAuthenticatedClient() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\AdapterTemplate.cs:line 41
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at VisualSoft.Surveillance.Radar.Services.Adapters.AdapterTemplate.get_AuthenticatedClient() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\AdapterTemplate.cs:line 19
+   at VisualSoft.Surveillance.Radar.Services.Adapters.OrganisationAdapter.GetOrganisations() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\OrganisationAdapter.cs:line 48
+2026-01-26 13:11:06.906 +05:00 [ERR] Error occured!.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VisualSoft.Surveillance.Radar.Services.RadarTransactionService.TransformTransactionsWithOrganisation(IEnumerable`1 transactions) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\RadarTransactionService.cs:line 114
+   at VisualSoft.Surveillance.Radar.Services.RadarTransactionService.GetAllTransactions() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\RadarTransactionService.cs:line 45
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Controllers\TransactionController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Middlewares\ExceptionMiddleware.cs:line 25
+2026-01-26 13:11:12.427 +05:00 [INF] Start processing HTTP request POST https://localhost:7285/api/login
+2026-01-26 13:11:12.427 +05:00 [INF] Sending HTTP request POST https://localhost:7285/api/login
+2026-01-26 13:11:16.894 +05:00 [ERR] Error Occurred
+System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7285))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7285)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at VisualSoft.Surveillance.Radar.Services.Infrastructure.ServiceUserAuthTokenExtractor.Extract() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Infrastructure\ServiceUserAuthTokenExtractor.cs:line 31
+   at VisualSoft.Surveillance.Radar.Services.Adapters.AdapterTemplate.CreateAuthenticatedClient() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\AdapterTemplate.cs:line 41
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at VisualSoft.Surveillance.Radar.Services.Adapters.AdapterTemplate.get_AuthenticatedClient() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\AdapterTemplate.cs:line 19
+   at VisualSoft.Surveillance.Radar.Services.Adapters.OrganisationAdapter.GetOrganisations() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\OrganisationAdapter.cs:line 48
+2026-01-26 13:11:30.991 +05:00 [ERR] Error occured!.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at VisualSoft.Surveillance.Radar.Services.RadarTransactionService.TransformTransactionsWithOrganisation(IEnumerable`1 transactions) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\RadarTransactionService.cs:line 114
+   at VisualSoft.Surveillance.Radar.Services.RadarTransactionService.GetAllTransactions() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\RadarTransactionService.cs:line 45
+   at VisualSoft.Surveillance.Radar.Api.Controllers.TransactionController.Get() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Controllers\TransactionController.cs:line 35
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at VisualSoft.Surveillance.Radar.Api.Middlewares.ExceptionMiddleware.Invoke(HttpContext httpContext) in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api\Middlewares\ExceptionMiddleware.cs:line 25
+2026-01-26 13:13:30.002 +05:00 [INF] Start processing HTTP request POST https://localhost:7285/api/login
+2026-01-26 13:13:30.002 +05:00 [INF] Sending HTTP request POST https://localhost:7285/api/login
+2026-01-26 13:20:23.580 +05:00 [INF] Beginning transaction
+2026-01-26 13:20:23.701 +05:00 [INF] Beginning database upgrade
+2026-01-26 13:20:23.706 +05:00 [INF] Checking whether journal table exists..
+2026-01-26 13:20:23.741 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-26 13:20:23.770 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-26 13:20:23.935 +05:00 [INF] Beginning transaction
+2026-01-26 13:20:23.935 +05:00 [INF] Beginning database upgrade
+2026-01-26 13:20:23.935 +05:00 [INF] Checking whether journal table exists..
+2026-01-26 13:20:23.964 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-26 13:20:23.973 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-26 13:20:25.273 +05:00 [INF] Starting Parser Request Consumer service {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 13:20:26.586 +05:00 [INF] Now listening on: https://localhost:7229
+2026-01-26 13:20:26.591 +05:00 [INF] Now listening on: http://localhost:5211
+2026-01-26 13:20:27.079 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-26 13:20:27.080 +05:00 [INF] Hosting environment: Development
+2026-01-26 13:20:27.080 +05:00 [INF] Content root path: D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api
+2026-01-26 13:41:01.586 +05:00 [INF] Beginning transaction
+2026-01-26 13:41:01.676 +05:00 [INF] Beginning database upgrade
+2026-01-26 13:41:01.680 +05:00 [INF] Checking whether journal table exists..
+2026-01-26 13:41:01.717 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-26 13:41:01.737 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-26 13:41:01.919 +05:00 [INF] Beginning transaction
+2026-01-26 13:41:01.920 +05:00 [INF] Beginning database upgrade
+2026-01-26 13:41:01.920 +05:00 [INF] Checking whether journal table exists..
+2026-01-26 13:41:01.958 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-26 13:41:01.966 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-26 13:41:02.921 +05:00 [INF] Starting Parser Request Consumer service {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 13:41:03.722 +05:00 [INF] Now listening on: https://localhost:7229
+2026-01-26 13:41:03.725 +05:00 [INF] Now listening on: http://localhost:5211
+2026-01-26 13:41:04.100 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-26 13:41:04.101 +05:00 [INF] Hosting environment: Development
+2026-01-26 13:41:04.102 +05:00 [INF] Content root path: D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api
+2026-01-26 13:47:01.509 +05:00 [INF] Beginning transaction
+2026-01-26 13:47:01.661 +05:00 [INF] Beginning database upgrade
+2026-01-26 13:47:01.665 +05:00 [INF] Checking whether journal table exists..
+2026-01-26 13:47:01.698 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-26 13:47:01.724 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-26 13:47:01.905 +05:00 [INF] Beginning transaction
+2026-01-26 13:47:01.905 +05:00 [INF] Beginning database upgrade
+2026-01-26 13:47:01.906 +05:00 [INF] Checking whether journal table exists..
+2026-01-26 13:47:01.943 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-26 13:47:01.952 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-26 13:47:03.117 +05:00 [INF] Starting Parser Request Consumer service {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 13:47:04.244 +05:00 [INF] Now listening on: https://localhost:7229
+2026-01-26 13:47:04.248 +05:00 [INF] Now listening on: http://localhost:5211
+2026-01-26 13:47:04.691 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-26 13:47:04.692 +05:00 [INF] Hosting environment: Development
+2026-01-26 13:47:04.692 +05:00 [INF] Content root path: D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api
+2026-01-26 13:47:27.374 +05:00 [ERR] JWT Authentication failed: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '1/21/2026 2:57:18 PM', Current time (UTC): '1/26/2026 8:47:27 AM'.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '1/21/2026 2:57:18 PM', Current time (UTC): '1/26/2026 8:47:27 AM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2026-01-26 13:49:27.788 +05:00 [INF] Start processing HTTP request POST https://localhost:7285/api/login
+2026-01-26 13:49:27.799 +05:00 [INF] Sending HTTP request POST https://localhost:7285/api/login
+2026-01-26 13:49:32.379 +05:00 [ERR] Error Occurred
+System.AggregateException: One or more errors occurred. (No connection could be made because the target machine actively refused it. (localhost:7285))
+ ---> System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it. (localhost:7285)
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)
+   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at Microsoft.Extensions.Http.Logging.LoggingScopeHttpMessageHandler.<SendCoreAsync>g__Core|4_0(HttpRequestMessage request, Boolean useAsync, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at VisualSoft.Surveillance.Radar.Services.Infrastructure.ServiceUserAuthTokenExtractor.Extract() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Infrastructure\ServiceUserAuthTokenExtractor.cs:line 31
+   at VisualSoft.Surveillance.Radar.Services.Adapters.AdapterTemplate.CreateAuthenticatedClient() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\AdapterTemplate.cs:line 41
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at VisualSoft.Surveillance.Radar.Services.Adapters.AdapterTemplate.get_AuthenticatedClient() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\AdapterTemplate.cs:line 19
+   at VisualSoft.Surveillance.Radar.Services.Adapters.OrganisationAdapter.GetOrganisations() in D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Services\Adapters\OrganisationAdapter.cs:line 48
+2026-01-26 14:03:05.357 +05:00 [INF] Beginning transaction
+2026-01-26 14:03:05.532 +05:00 [INF] Beginning database upgrade
+2026-01-26 14:03:05.539 +05:00 [INF] Checking whether journal table exists..
+2026-01-26 14:03:05.579 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-26 14:03:05.607 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-26 14:03:05.851 +05:00 [INF] Beginning transaction
+2026-01-26 14:03:05.851 +05:00 [INF] Beginning database upgrade
+2026-01-26 14:03:05.851 +05:00 [INF] Checking whether journal table exists..
+2026-01-26 14:03:05.884 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-26 14:03:05.893 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-26 14:03:07.776 +05:00 [INF] Starting Parser Request Consumer service {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 14:03:09.430 +05:00 [INF] Now listening on: https://localhost:7229
+2026-01-26 14:03:09.433 +05:00 [INF] Now listening on: http://localhost:5211
+2026-01-26 14:03:10.141 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-26 14:03:10.142 +05:00 [INF] Hosting environment: Development
+2026-01-26 14:03:10.142 +05:00 [INF] Content root path: D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api
+2026-01-26 14:03:30.331 +05:00 [INF] Start processing HTTP request POST https://localhost:7284/api/login
+2026-01-26 14:03:30.353 +05:00 [INF] Sending HTTP request POST https://localhost:7284/api/login
+2026-01-26 14:03:32.157 +05:00 [INF] Received HTTP response headers after 1792.8433ms - 200
+2026-01-26 14:03:32.164 +05:00 [INF] End processing HTTP request after 1853.7523ms - 200
+2026-01-26 14:03:44.942 +05:00 [INF] Start processing HTTP request GET https://localhost:7284/api/organisations
+2026-01-26 14:03:44.942 +05:00 [INF] Sending HTTP request GET https://localhost:7284/api/organisations
+2026-01-26 14:03:45.429 +05:00 [INF] Received HTTP response headers after 486.0456ms - 200
+2026-01-26 14:03:45.429 +05:00 [INF] End processing HTTP request after 487.6201ms - 200
+2026-01-26 14:54:44.658 +05:00 [INF] Consuming message from Rabbit MQ. {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 14:54:45.193 +05:00 [INF] Starting Creating Transcation Process {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 14:54:48.050 +05:00 [INF] Consuming message from Rabbit MQ. {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 14:54:49.382 +05:00 [INF] Starting Creating Transcation Process {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 14:54:50.682 +05:00 [INF] Radar Presence Detected at 
+2026-01-26 14:54:51.591 +05:00 [INF] Radar Presence Detected at 
+2026-01-26 14:54:51.622 +05:00 [INF] Radar Data Saved. ID: VisualSoft.Surveillance.Radar.Domain.Models.RadarTransactionDto
+2026-01-26 14:54:51.638 +05:00 [INF] Radar Data Saved. ID: VisualSoft.Surveillance.Radar.Domain.Models.RadarTransactionDto
+2026-01-26 14:57:55.820 +05:00 [INF] Consuming message from Rabbit MQ. {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 14:57:55.831 +05:00 [INF] Starting Creating Transcation Process {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 14:57:57.583 +05:00 [INF] Radar Presence Detected at 
+2026-01-26 14:57:57.594 +05:00 [INF] Radar Data Saved. ID: VisualSoft.Surveillance.Radar.Domain.Models.RadarTransactionDto
+2026-01-26 15:08:50.036 +05:00 [INF] Consuming message from Rabbit MQ. {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 15:08:50.232 +05:00 [INF] Starting Creating Transcation Process {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 15:08:52.504 +05:00 [INF] Radar Presence Detected at 
+2026-01-26 15:08:52.510 +05:00 [INF] Radar Data Saved. ID: VisualSoft.Surveillance.Radar.Domain.Models.RadarTransactionDto
+2026-01-26 15:14:13.802 +05:00 [INF] Consuming message from Rabbit MQ. {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 15:14:14.003 +05:00 [INF] Starting Creating Transcation Process {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 15:14:19.184 +05:00 [INF] Radar Presence Detected at Entry
+2026-01-26 15:14:19.190 +05:00 [INF] Radar Data Saved. ID: VisualSoft.Surveillance.Radar.Domain.Models.RadarTransactionDto
+2026-01-26 15:19:38.493 +05:00 [INF] Consuming message from Rabbit MQ. {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 15:19:38.791 +05:00 [INF] Starting Creating Transcation Process {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 15:19:40.437 +05:00 [INF] Radar Presence Detected at Entry
+2026-01-26 15:19:40.460 +05:00 [INF] Radar Data Saved. ID: VisualSoft.Surveillance.Radar.Domain.Models.RadarTransactionDto
+2026-01-26 15:24:18.982 +05:00 [INF] Beginning transaction
+2026-01-26 15:24:19.108 +05:00 [INF] Beginning database upgrade
+2026-01-26 15:24:19.114 +05:00 [INF] Checking whether journal table exists..
+2026-01-26 15:24:19.153 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-26 15:24:19.170 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-26 15:24:19.343 +05:00 [INF] Beginning transaction
+2026-01-26 15:24:19.343 +05:00 [INF] Beginning database upgrade
+2026-01-26 15:24:19.343 +05:00 [INF] Checking whether journal table exists..
+2026-01-26 15:24:19.385 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-26 15:24:19.397 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-26 15:24:21.173 +05:00 [INF] Starting Parser Request Consumer service {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 15:24:22.716 +05:00 [INF] Now listening on: https://localhost:7229
+2026-01-26 15:24:22.722 +05:00 [INF] Now listening on: http://localhost:5211
+2026-01-26 15:24:23.254 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-26 15:24:23.255 +05:00 [INF] Hosting environment: Development
+2026-01-26 15:24:23.256 +05:00 [INF] Content root path: D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api
+2026-01-26 15:24:55.885 +05:00 [INF] Start processing HTTP request POST https://localhost:7284/api/login
+2026-01-26 15:24:55.908 +05:00 [INF] Sending HTTP request POST https://localhost:7284/api/login
+2026-01-26 15:24:57.421 +05:00 [INF] Received HTTP response headers after 1504.3201ms - 200
+2026-01-26 15:24:57.426 +05:00 [INF] End processing HTTP request after 1561.5692ms - 200
+2026-01-26 15:25:03.255 +05:00 [INF] Start processing HTTP request GET https://localhost:7284/api/organisations
+2026-01-26 15:25:03.257 +05:00 [INF] Sending HTTP request GET https://localhost:7284/api/organisations
+2026-01-26 15:25:03.363 +05:00 [INF] Received HTTP response headers after 106.4199ms - 200
+2026-01-26 15:25:03.364 +05:00 [INF] End processing HTTP request after 108.9869ms - 200
+2026-01-26 22:13:38.135 +05:00 [INF] Beginning transaction
+2026-01-26 22:13:38.364 +05:00 [INF] Beginning database upgrade
+2026-01-26 22:13:38.372 +05:00 [INF] Checking whether journal table exists..
+2026-01-26 22:13:38.420 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-26 22:13:38.453 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-26 22:13:38.792 +05:00 [INF] Beginning transaction
+2026-01-26 22:13:38.793 +05:00 [INF] Beginning database upgrade
+2026-01-26 22:13:38.793 +05:00 [INF] Checking whether journal table exists..
+2026-01-26 22:13:38.842 +05:00 [INF] Fetching list of already executed scripts.
+2026-01-26 22:13:38.872 +05:00 [INF] No new scripts need to be executed - completing.
+2026-01-26 22:13:40.774 +05:00 [INF] Starting Parser Request Consumer service {"QueueName":"visualsoft.surveillance.radar.events"}
+2026-01-26 22:13:43.199 +05:00 [INF] Now listening on: https://localhost:7229
+2026-01-26 22:13:43.204 +05:00 [INF] Now listening on: http://localhost:5211
+2026-01-26 22:13:43.828 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-01-26 22:13:43.830 +05:00 [INF] Hosting environment: Development
+2026-01-26 22:13:43.830 +05:00 [INF] Content root path: D:\123\Ominia Backend\Omnia Backend\RadarBackend\VisualSoft.Surveillance.Radar.Api\VisualSoft.Surveillance.Radar.Api
+2026-01-26 22:14:15.132 +05:00 [INF] Start processing HTTP request POST https://localhost:7284/api/login
+2026-01-26 22:14:15.156 +05:00 [INF] Sending HTTP request POST https://localhost:7284/api/login
+2026-01-26 22:14:17.353 +05:00 [INF] Received HTTP response headers after 2178.2838ms - 200
+2026-01-26 22:14:17.361 +05:00 [INF] End processing HTTP request after 2255.3699ms - 200
+2026-01-26 22:14:17.409 +05:00 [INF] Start processing HTTP request GET https://localhost:7284/api/organisations
+2026-01-26 22:14:17.410 +05:00 [INF] Sending HTTP request GET https://localhost:7284/api/organisations
+2026-01-26 22:14:17.499 +05:00 [INF] Received HTTP response headers after 87.9995ms - 200
+2026-01-26 22:14:17.499 +05:00 [INF] End processing HTTP request after 89.782ms - 200
+2026-01-26 22:23:28.095 +05:00 [ERR] JWT Authentication failed: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '1/26/2026 4:37:44 AM', Current time (UTC): '1/26/2026 5:23:28 PM'.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '1/26/2026 4:37:44 AM', Current time (UTC): '1/26/2026 5:23:28 PM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2026-01-26 22:24:12.056 +05:00 [ERR] JWT Authentication failed: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '1/26/2026 4:37:44 AM', Current time (UTC): '1/26/2026 5:24:12 PM'.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '1/26/2026 4:37:44 AM', Current time (UTC): '1/26/2026 5:24:12 PM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2026-01-26 22:24:44.564 +05:00 [ERR] JWT Authentication failed: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '1/26/2026 4:37:44 AM', Current time (UTC): '1/26/2026 5:24:44 PM'.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '1/26/2026 4:37:44 AM', Current time (UTC): '1/26/2026 5:24:44 PM'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateJWS(String token, TokenValidationParameters validationParameters, BaseConfiguration currentConfiguration, SecurityToken& signatureValidatedToken, ExceptionDispatchInfo& exceptionThrown)
+--- End of stack trace from previous location ---
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, JwtSecurityToken outerToken, TokenValidationParameters validationParameters, SecurityToken& signatureValidatedToken)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()

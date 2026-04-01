@@ -1,0 +1,76 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend Seperate Project Code\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1AC8A742-109D-8671-6953-C09647CF546F}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend seperate project code\\visualsoft.surveillance.radar.api\\visualsoft.surveillance.radar.api\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AC8A742-109D-8671-6953-C09647CF546F}|VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api.csproj|solutionrelative:visualsoft.surveillance.radar.api\\visualsoft.surveillance.radar.api\\controllers\\transactioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEA7DE4F-2924-0701-866A-82D7A947DCFD}|VisualSoft.Surveillance.Radar.Services\\VisualSoft.Surveillance.Radar.Services.csproj|d:\\123\\ominia backend\\omnia backend\\radarbackend seperate project code\\visualsoft.surveillance.radar.services\\handlers\\radartransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEA7DE4F-2924-0701-866A-82D7A947DCFD}|VisualSoft.Surveillance.Radar.Services\\VisualSoft.Surveillance.Radar.Services.csproj|solutionrelative:visualsoft.surveillance.radar.services\\handlers\\radartransactionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 382,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RADARTransactionService.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend Seperate Project Code\\VisualSoft.Surveillance.Radar.Services\\Handlers\\RADARTransactionService.cs",
+              "RelativeDocumentMoniker": "VisualSoft.Surveillance.Radar.Services\\Handlers\\RADARTransactionService.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend Seperate Project Code\\VisualSoft.Surveillance.Radar.Services\\Handlers\\RADARTransactionService.cs",
+              "RelativeToolTip": "VisualSoft.Surveillance.Radar.Services\\Handlers\\RADARTransactionService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-01T06:29:19.297Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TransactionController.cs",
+              "DocumentMoniker": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend Seperate Project Code\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Controllers\\TransactionController.cs",
+              "RelativeDocumentMoniker": "VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Controllers\\TransactionController.cs",
+              "ToolTip": "D:\\123\\Ominia Backend\\Omnia Backend\\RadarBackend Seperate Project Code\\VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Controllers\\TransactionController.cs",
+              "RelativeToolTip": "VisualSoft.Surveillance.Radar.Api\\VisualSoft.Surveillance.Radar.Api\\Controllers\\TransactionController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T17:07:12.794Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 414,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

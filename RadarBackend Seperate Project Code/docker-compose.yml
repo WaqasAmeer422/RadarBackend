@@ -1,0 +1,26 @@
+services:
+  radar-api:
+    image: radar-app
+    build: .
+    ports:
+      - "5000:8080"  # Access your app at localhost:5000
+    environment:
+      - ConnectionStrings__DefaultConnection=Host=db;Database=humanDetection;Username=postgres;Password=12345;Pooling=true;MAXPOOLSIZE=120;
+    depends_on:
+      - db
+
+  db:
+    image: postgres:15
+    environment:
+      - POSTGRES_PASSWORD=12345
+      - POSTGRES_DB=humanDetection
+    ports:
+      - "5432:5432"
+
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@admin.com
+      - PGADMIN_DEFAULT_PASSWORD=admin
+    ports:
+      - "8080:80"
